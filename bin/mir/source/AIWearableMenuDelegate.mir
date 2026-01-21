@@ -1,0 +1,146 @@
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 5; @symbol_classdef = [AIWearableMenuDelegate,5,6,28]; @symbol_extends<0> = [WatchUi,5,37,44]; @symbol_extends<1> = [MenuInputDelegate,5,45,62]; ]
+class AIWearableMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    function initialize() as Void {
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_7_26_9_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 8 8 ]
+        symbol [ MenuInputDelegate %tmp.2 8 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 8 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_7_26_9_4_stop:
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 11; @symbol_functiondef = [onMenuItem,11,13,23]; @symbol_param<0> = [item,11,24,28]; @symbol_param<0>_type<0> = [Symbol,11,32,38]; ]
+    function onMenuItem(item as Symbol) as Void {
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_11_48_26_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 12 8 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_8_25_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 12 12 16 ];
+        %tmp.3 = const :export_data;
+        symbol [ export_data %tmp.3 12 21 32 const ];
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_8_25_8_if_false;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_8_25_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_34_20_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 13 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_34_20_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_34_20_8_stop" ]
+        %exporter.1 = local;
+        symbol [ exporter %exporter.1 13 16 24 ];
+        symbol [ DataExporter %tmp.8 13 31 43 ];
+        %tmp.8 = getv ? :DataExporter;
+        %tmp.5 = newc %tmp.8 ();
+        lputv %exporter.1 %tmp.5;
+        symbol [ exporter %exporter.1 13 16 24 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 14 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_34_20_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_34_20_8_stop" ]
+        %success.2 = local;
+        symbol [ success %success.2 14 16 23 ];
+        %tmp.9 = lgetv %exporter.1;
+        symbol [ exporter %tmp.9 14 26 34 ];
+        symbol [ saveToFile %tmp.10 14 35 45 ];
+        %tmp.10 = getv function %tmp.9 :saveToFile;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        lputv %success.2 %tmp.11;
+        symbol [ success %success.2 14 16 23 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 15 12 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_stmt:
+        %tmp.12 = lgetv %success.2;
+        symbol [ success %tmp.12 15 16 23 ];
+        bf %tmp.12 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_else_false;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_25_17_12_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 16 16 ]
+        symbol [ System %tmp.13 16 16 22 ];
+        %tmp.13 = getm $.Toybox.System;
+        symbol [ println %tmp.14 16 23 30 ];
+        %tmp.14 = getv function %tmp.13 :println;
+        %tmp.15 = "? Data exported successfully";
+        invoke %tmp.13 %tmp.14(%tmp.15);
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_25_17_12_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_else_false:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_17_19_19_12_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 18 16 ]
+        symbol [ System %tmp.16 18 16 22 ];
+        %tmp.16 = getm $.Toybox.System;
+        symbol [ println %tmp.17 18 23 30 ];
+        %tmp.17 = getv function %tmp.16 :println;
+        %tmp.18 = "? Data export failed";
+        invoke %tmp.16 %tmp.17(%tmp.18);
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_17_19_19_12_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_34_20_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_8_25_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_8_25_8_if_false:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 20 15 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_stmt:
+        %tmp.19 = lgetv %item;
+        symbol [ item %tmp.19 20 19 23 ];
+        %tmp.21 = const :upload_data;
+        symbol [ upload_data %tmp.21 20 28 39 const ];
+        %tmp.22 = eq %tmp.19 %tmp.21;
+        bf %tmp.22 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_false;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_41_23_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 21 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_41_23_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_41_23_8_stop" ]
+        %exporter.3 = local;
+        symbol [ exporter %exporter.3 21 16 24 ];
+        symbol [ DataExporter %tmp.26 21 31 43 ];
+        %tmp.26 = getv ? :DataExporter;
+        %tmp.23 = newc %tmp.26 ();
+        lputv %exporter.3 %tmp.23;
+        symbol [ exporter %exporter.3 21 16 24 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 22 12 ]
+        %tmp.27 = lgetv %exporter.3;
+        symbol [ exporter %tmp.27 22 12 20 ];
+        symbol [ uploadToServer %tmp.28 22 21 35 ];
+        %tmp.28 = getv function %tmp.27 :uploadToServer;
+        %tmp.29 = "https://aiwearable-server.railway.app/api/health-data";
+        invoke %tmp.27 %tmp.28(%tmp.29);
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_41_23_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_false:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 23 15 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_15_25_8_if_stmt:
+        %tmp.30 = lgetv %item;
+        symbol [ item %tmp.30 23 19 23 ];
+        %tmp.32 = const :item_2;
+        symbol [ item_2 %tmp.32 23 28 34 const ];
+        %tmp.33 = eq %tmp.30 %tmp.32;
+        bf %tmp.33 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_15_25_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_15_25_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_36_25_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc" 24 12 ]
+        symbol [ System %tmp.34 24 12 18 ];
+        %tmp.34 = getm $.Toybox.System;
+        symbol [ println %tmp.35 24 19 26 ];
+        %tmp.35 = getv function %tmp.34 :println;
+        %tmp.36 = "item 2";
+        invoke %tmp.34 %tmp.35(%tmp.36);
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_36_25_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_15_25_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_23_15_25_8_if_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_12_8_25_8_if_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_11_48_26_4_stop:
+    }
+}
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

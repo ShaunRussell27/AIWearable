@@ -1,0 +1,589 @@
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 35; @symbol_usingdef<0> = [Toybox,35,6,12]; @symbol_usingdef<1> = [WatchUi,35,13,20]; @symbol_usingAlias = [Ui,35,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 36; @symbol_usingdef<0> = [Toybox,36,6,12]; @symbol_usingdef<1> = [Graphics,36,13,21]; @symbol_usingAlias = [G,36,25,26]; ]
+using Toybox.Graphics as :G;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 37; @symbol_usingdef<0> = [Toybox,37,6,12]; @symbol_usingdef<1> = [ActivityMonitor,37,13,28]; @symbol_usingAlias = [ActivityMonitor,37,32,47]; ]
+using Toybox.ActivityMonitor as :ActivityMonitor;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 38; @symbol_usingdef<0> = [Toybox,38,6,12]; @symbol_usingdef<1> = [System,38,13,19]; @symbol_usingAlias = [Sys,38,23,26]; ]
+using Toybox.System as :Sys;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 39; @symbol_usingdef<0> = [Toybox,39,6,12]; @symbol_usingdef<1> = [Time,39,13,17]; @symbol_usingAlias = [Time,39,21,25]; ]
+using Toybox.Time as :Time;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 40; @symbol_usingdef<0> = [Toybox,40,6,12]; @symbol_usingdef<1> = [Application,40,13,24]; @symbol_usingdef<2> = [Storage,40,25,32]; @symbol_usingAlias = [Storage,40,36,43]; ]
+using Toybox.Application.Storage as :Storage;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 41; @symbol_usingdef<0> = [Toybox,41,6,12]; @symbol_usingdef<1> = [Lang,41,13,17]; @symbol_usingAlias = [Lang,41,21,25]; ]
+using Toybox.Lang as :Lang;
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 44; @symbol_classdef = [AIWearableView,44,6,20]; @symbol_extends<0> = [Ui,44,29,31]; @symbol_extends<1> = [View,44,32,36]; ]
+class AIWearableView extends Ui.View {
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 44; ]
+    <init> {
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 44; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 46; @position = 8; @symbol_vardef = [hr,46,8,10]; ]
+    var hr = 0;
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 47; @position = 8; @symbol_vardef = [stress,47,8,14]; ]
+    var stress = 0;
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 48; @position = 8; @symbol_vardef = [lastRecordTime,48,8,22]; ]
+    var lastRecordTime = 0;
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 49; @position = 8; @symbol_vardef = [readingInterval,49,8,23]; ]
+    var readingInterval = 300;
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 51; @symbol_functiondef = [initialize,51,13,23]; ]
+    function initialize() as Void {
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_51_26_53_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 52 8 ]
+        symbol [ View %tmp.2 52 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 52 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_51_26_53_4_stop:
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 55; @symbol_functiondef = [onShow,55,13,19]; ]
+    function onShow() as Void {
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 56 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_stop" ]
+        %info.1 = local;
+        symbol [ info %info.1 56 12 16 ];
+        symbol [ Time %tmp.1 56 19 23 ];
+        %tmp.1 = getm $.Toybox.Time;
+        symbol [ Gregorian %tmp.2 56 24 33 ];
+        %tmp.2 = getv %tmp.1 :Gregorian;
+        symbol [ info %tmp.3 56 34 38 ];
+        %tmp.3 = getv function %tmp.2 :info;
+        symbol [ Time %tmp.4 56 39 43 ];
+        %tmp.4 = getm $.Toybox.Time;
+        symbol [ now %tmp.5 56 44 47 ];
+        %tmp.5 = getv function %tmp.4 :now;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        symbol [ Time %tmp.7 56 51 55 ];
+        %tmp.7 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.8 56 56 68 ];
+        %tmp.8 = getv %tmp.7 :FORMAT_SHORT;
+        %tmp.9 = invoke %tmp.2 %tmp.3(%tmp.6, %tmp.8);
+        lputv %info.1 %tmp.9;
+        symbol [ info %info.1 56 12 16 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 57 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_stop" ]
+        %dateKey.2 = local;
+        symbol [ dateKey %dateKey.2 57 12 19 ];
+        symbol [ Lang %tmp.10 57 22 26 ];
+        %tmp.10 = getm $.Toybox.Lang;
+        symbol [ format %tmp.11 57 27 33 ];
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "hr_$1$_$2$_$3$";
+        %tmp.13 = newa 3;
+        %tmp.14 = lgetv %info.1;
+        symbol [ info %tmp.14 57 53 57 ];
+        symbol [ year %tmp.15 57 58 62 ];
+        %tmp.15 = getv %tmp.14 :year;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.18 = lgetv %info.1;
+        symbol [ info %tmp.18 57 64 68 ];
+        symbol [ month %tmp.19 57 69 74 ];
+        %tmp.19 = getv %tmp.18 :month;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 1 %tmp.19;
+        %tmp.22 = lgetv %info.1;
+        symbol [ info %tmp.22 57 76 80 ];
+        symbol [ day %tmp.23 57 81 84 ];
+        %tmp.23 = getv %tmp.22 :day;
+        %tmp.24 = dup %tmp.21;
+        %tmp.25 = aputv %tmp.24 2 %tmp.23;
+        %tmp.26 = invoke %tmp.10 %tmp.11(%tmp.12, %tmp.25);
+        lputv %dateKey.2 %tmp.26;
+        symbol [ dateKey %dateKey.2 57 12 19 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 58 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_stop" ]
+        %readings.3 = local;
+        symbol [ readings %readings.3 58 12 20 ];
+        symbol [ Storage %tmp.27 58 23 30 ];
+        %tmp.27 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.28 58 31 39 ];
+        %tmp.28 = getv function %tmp.27 :getValue;
+        %tmp.29 = lgetv %dateKey.2;
+        symbol [ dateKey %tmp.29 58 40 47 ];
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        lputv %readings.3 %tmp.30;
+        symbol [ readings %readings.3 58 12 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 59 8 ]
+        symbol [ Sys %tmp.31 59 8 11 ];
+        %tmp.31 = getm $.Toybox.System;
+        symbol [ println %tmp.32 59 12 19 ];
+        %tmp.32 = getv function %tmp.31 :println;
+        %tmp.33 = "Stored samples: ";
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_begin:
+        %tmp.34 = lgetv %readings.3;
+        symbol [ readings %tmp.34 59 42 50 ];
+        %tmp.35 = null;
+        %tmp.36 = ne %tmp.34 %tmp.35;
+        bf %tmp.36 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_else_false;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_true:
+        %tmp.37 = lgetv %readings.3;
+        symbol [ readings %tmp.37 59 61 69 ];
+        %tmp.38 = as %tmp.37 { (!Null) };
+        symbol [ size %tmp.39 59 70 74 ];
+        %tmp.39 = getv function %tmp.38 :size;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        push %tmp.40;
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_else_false:
+        %tmp.41 = 0;
+        push %tmp.41;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_end:
+        %tmp.42 = phi [%tmp.36 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_begin] [%tmp.40 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_true] [%tmp.41 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_else_false] [%tmp.42 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_59_42_59_79_end];
+        %tmp.43 = add %tmp.33 %tmp.42;
+        invoke %tmp.31 %tmp.32(%tmp.43);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 61 8 ]
+        symbol [ Ui %tmp.44 61 8 10 ];
+        %tmp.44 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.45 61 11 24 ];
+        %tmp.45 = getv function %tmp.44 :requestUpdate;
+        invoke %tmp.44 %tmp.45();
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 63 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_stop" ]
+        %tests.4 = local;
+        symbol [ tests %tests.4 63 12 17 ];
+        symbol [ AIWearableTests %tmp.49 63 24 39 ];
+        %tmp.49 = getv ? :AIWearableTests;
+        %tmp.46 = newc %tmp.49 ();
+        lputv %tests.4 %tmp.46;
+        symbol [ tests %tests.4 63 12 17 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 64 8 ]
+        %tmp.50 = lgetv %tests.4;
+        symbol [ tests %tmp.50 64 8 13 ];
+        symbol [ runAllTests %tmp.51 64 14 25 ];
+        %tmp.51 = getv function %tmp.50 :runAllTests;
+        invoke %tmp.50 %tmp.51();
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_55_30_65_4_stop:
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 67; @symbol_functiondef = [onUpdate,67,13,21]; @symbol_param<0> = [dc,67,22,24]; @symbol_param<0>_type<0> = [Dc,67,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_67_40_97_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 68 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 68 8 10 ];
+        symbol [ setColor %tmp.2 68 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ G %tmp.3 68 20 21 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 68 22 33 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ G %tmp.5 68 35 36 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 68 37 48 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 69 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 69 8 10 ];
+        symbol [ clear %tmp.8 69 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 72 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_67_40_97_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_67_40_97_4_stop" ]
+        %hrHistory.1 = local;
+        symbol [ hrHistory %hrHistory.1 72 12 21 ];
+        symbol [ ActivityMonitor %tmp.9 72 24 39 ];
+        %tmp.9 = getm $.Toybox.ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.10 72 40 59 ];
+        %tmp.10 = getv function %tmp.9 :getHeartRateHistory;
+        %tmp.11 = null;
+        %tmp.12 = true;
+        %tmp.13 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
+        lputv %hrHistory.1 %tmp.13;
+        symbol [ hrHistory %hrHistory.1 72 12 21 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 73 8 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_8_80_8_if_stmt:
+        %tmp.14 = lgetv %hrHistory.1;
+        symbol [ hrHistory %tmp.14 73 12 21 ];
+        %tmp.15 = null;
+        %tmp.16 = ne %tmp.14 %tmp.15;
+        bf %tmp.16 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_8_80_8_if_else_false;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_8_80_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_31_78_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 74 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_31_78_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_31_78_8_stop" ]
+        %sample.2 = local;
+        symbol [ sample %sample.2 74 16 22 ];
+        %tmp.17 = lgetv %hrHistory.1;
+        symbol [ hrHistory %tmp.17 74 25 34 ];
+        %tmp.18 = as %tmp.17 { (!Null) };
+        symbol [ next %tmp.19 74 35 39 ];
+        %tmp.19 = getv function %tmp.18 :next;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        lputv %sample.2 %tmp.20;
+        symbol [ sample %sample.2 74 16 22 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 75 12 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_12_77_12_if_stmt:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_16_75_70_begin:
+        %tmp.21 = lgetv %sample.2;
+        symbol [ sample %tmp.21 75 16 22 ];
+        %tmp.22 = null;
+        %tmp.23 = ne %tmp.21 %tmp.22;
+        bf %tmp.23 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_12_77_12_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_34_75_70_true:
+        %tmp.24 = lgetv %sample.2;
+        symbol [ sample %tmp.24 75 34 40 ];
+        %tmp.25 = as %tmp.24 { (!Null) };
+        symbol [ heartRate %tmp.26 75 41 50 ];
+        %tmp.26 = getv %tmp.25 :heartRate;
+        symbol [ ActivityMonitor %tmp.27 75 54 69 ];
+        %tmp.27 = getm $.Toybox.ActivityMonitor;
+        symbol [ INVALID_HR_SAMPLE %tmp.28 75 70 87 ];
+        %tmp.28 = getv %tmp.27 :INVALID_HR_SAMPLE;
+        %tmp.29 = ne %tmp.26 %tmp.28;
+        push %tmp.29;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_34_75_70_end:
+        %tmp.30 = phi [%tmp.23 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_16_75_70_begin] [%tmp.29 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_34_75_70_true] [%tmp.30 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_34_75_70_end];
+        bf %tmp.30 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_12_77_12_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_12_77_12_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_89_77_12_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 76 16 ]
+        %tmp.31 = lgetv %sample.2;
+        symbol [ sample %tmp.31 76 21 27 ];
+        %tmp.32 = as %tmp.31 { (!Null) };
+        symbol [ heartRate %tmp.33 76 28 37 ];
+        %tmp.33 = getv %tmp.32 :heartRate;
+        symbol [ hr ? 76 16 18 ];
+        putv self :hr %tmp.33;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_89_77_12_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_12_77_12_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_75_12_77_12_if_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_31_78_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_8_80_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_8_80_8_if_else_false:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_78_15_80_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 79 11 ]
+        %tmp.34 = 75;
+        symbol [ hr ? 79 11 13 ];
+        putv self :hr %tmp.34;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_78_15_80_8_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_73_8_80_8_if_end:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 83 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_67_40_97_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_67_40_97_4_stop" ]
+        %now.3 = local;
+        symbol [ now %now.3 83 12 15 ];
+        symbol [ Time %tmp.35 83 18 22 ];
+        %tmp.35 = getm $.Toybox.Time;
+        symbol [ now %tmp.36 83 23 26 ];
+        %tmp.36 = getv function %tmp.35 :now;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        symbol [ value %tmp.38 83 29 34 ];
+        %tmp.38 = getv function %tmp.37 :value;
+        %tmp.39 = invoke %tmp.37 %tmp.38();
+        lputv %now.3 %tmp.39;
+        symbol [ now %now.3 83 12 15 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 84 8 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_8_87_8_if_stmt:
+        %tmp.40 = lgetv %now.3;
+        symbol [ now %tmp.40 84 12 15 ];
+        symbol [ lastRecordTime %tmp.42 84 18 32 ];
+        %tmp.42 = getv ? :lastRecordTime;
+        %tmp.43 = sub %tmp.40 %tmp.42;
+        symbol [ readingInterval %tmp.45 84 36 51 ];
+        %tmp.45 = getv ? :readingInterval;
+        %tmp.46 = gte %tmp.43 %tmp.45;
+        bf %tmp.46 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_8_87_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_8_87_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_53_87_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 85 12 ]
+        %tmp.47 = self;
+        symbol [ recordReading %tmp.48 85 12 25 ];
+        %tmp.48 = getv function %tmp.47 :recordReading;
+        symbol [ hr %tmp.50 85 26 28 ];
+        %tmp.50 = getv ? :hr;
+        symbol [ stress %tmp.52 85 30 36 ];
+        %tmp.52 = getv ? :stress;
+        invoke %tmp.47 %tmp.48(%tmp.50, %tmp.52);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 86 12 ]
+        %tmp.53 = lgetv %now.3;
+        symbol [ now %tmp.53 86 29 32 ];
+        symbol [ lastRecordTime ? 86 12 26 ];
+        putv self :lastRecordTime %tmp.53;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_53_87_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_8_87_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_84_8_87_8_if_end:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 89 8 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 89 8 10 ];
+        symbol [ setColor %tmp.55 89 11 19 ];
+        %tmp.55 = getv function %tmp.54 :setColor;
+        symbol [ G %tmp.56 89 20 21 ];
+        %tmp.56 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.57 89 22 33 ];
+        %tmp.57 = getv %tmp.56 :COLOR_WHITE;
+        symbol [ G %tmp.58 89 35 36 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.59 89 37 54 ];
+        %tmp.59 = getv %tmp.58 :COLOR_TRANSPARENT;
+        invoke %tmp.54 %tmp.55(%tmp.57, %tmp.59);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 90 8 ]
+        %tmp.60 = lgetv %dc;
+        symbol [ dc %tmp.60 90 8 10 ];
+        symbol [ drawText %tmp.61 90 11 19 ];
+        %tmp.61 = getv function %tmp.60 :drawText;
+        %tmp.62 = lgetv %dc;
+        symbol [ dc %tmp.62 90 20 22 ];
+        symbol [ getWidth %tmp.63 90 23 31 ];
+        %tmp.63 = getv function %tmp.62 :getWidth;
+        %tmp.64 = invoke %tmp.62 %tmp.63();
+        %tmp.65 = 2;
+        %tmp.66 = div %tmp.64 %tmp.65;
+        %tmp.67 = 60;
+        symbol [ G %tmp.68 90 41 42 ];
+        %tmp.68 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.69 90 43 53 ];
+        %tmp.69 = getv %tmp.68 :FONT_LARGE;
+        %tmp.70 = "HR: ";
+        symbol [ hr %tmp.72 91 21 23 ];
+        %tmp.72 = getv ? :hr;
+        %tmp.73 = add %tmp.70 %tmp.72;
+        symbol [ G %tmp.74 91 25 26 ];
+        %tmp.74 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.75 91 27 46 ];
+        %tmp.75 = getv %tmp.74 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.60 %tmp.61(%tmp.66, %tmp.67, %tmp.69, %tmp.73, %tmp.75);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 92 8 ]
+        %tmp.76 = lgetv %dc;
+        symbol [ dc %tmp.76 92 8 10 ];
+        symbol [ drawText %tmp.77 92 11 19 ];
+        %tmp.77 = getv function %tmp.76 :drawText;
+        %tmp.78 = lgetv %dc;
+        symbol [ dc %tmp.78 92 20 22 ];
+        symbol [ getWidth %tmp.79 92 23 31 ];
+        %tmp.79 = getv function %tmp.78 :getWidth;
+        %tmp.80 = invoke %tmp.78 %tmp.79();
+        %tmp.81 = 2;
+        %tmp.82 = div %tmp.80 %tmp.81;
+        %tmp.83 = 120;
+        symbol [ G %tmp.84 92 42 43 ];
+        %tmp.84 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.85 92 44 54 ];
+        %tmp.85 = getv %tmp.84 :FONT_LARGE;
+        %tmp.86 = "Stress: ";
+        symbol [ stress %tmp.88 93 25 31 ];
+        %tmp.88 = getv ? :stress;
+        %tmp.89 = add %tmp.86 %tmp.88;
+        symbol [ G %tmp.90 93 33 34 ];
+        %tmp.90 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.91 93 35 54 ];
+        %tmp.91 = getv %tmp.90 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.76 %tmp.77(%tmp.82, %tmp.83, %tmp.85, %tmp.89, %tmp.91);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 96 8 ]
+        symbol [ Ui %tmp.92 96 8 10 ];
+        %tmp.92 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.93 96 11 24 ];
+        %tmp.93 = getv function %tmp.92 :requestUpdate;
+        invoke %tmp.92 %tmp.93();
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_67_40_97_4_stop:
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 99; @symbol_functiondef = [recordReading,99,13,26]; @symbol_param<0> = [heartRate,99,27,36]; @symbol_param<0>_type<0> = [Lang,99,40,44]; @symbol_param<0>_type<1> = [Number,99,45,51]; @symbol_param<1> = [stressLevel,99,53,64]; @symbol_param<1>_type<0> = [Lang,99,68,72]; @symbol_param<1>_type<1> = [Number,99,73,79]; ]
+    function recordReading(heartRate as Lang.Number, stressLevel as Lang.Number) as Void {
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 100 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 100 12 15 ];
+        symbol [ Time %tmp.1 100 18 22 ];
+        %tmp.1 = getm $.Toybox.Time;
+        symbol [ now %tmp.2 100 23 26 ];
+        %tmp.2 = getv function %tmp.1 :now;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %now.1 %tmp.3;
+        symbol [ now %now.1 100 12 15 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 101 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %info.2 = local;
+        symbol [ info %info.2 101 12 16 ];
+        symbol [ Time %tmp.4 101 19 23 ];
+        %tmp.4 = getm $.Toybox.Time;
+        symbol [ Gregorian %tmp.5 101 24 33 ];
+        %tmp.5 = getv %tmp.4 :Gregorian;
+        symbol [ info %tmp.6 101 34 38 ];
+        %tmp.6 = getv function %tmp.5 :info;
+        %tmp.7 = lgetv %now.1;
+        symbol [ now %tmp.7 101 39 42 ];
+        symbol [ Time %tmp.8 101 44 48 ];
+        %tmp.8 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.9 101 49 61 ];
+        %tmp.9 = getv %tmp.8 :FORMAT_SHORT;
+        %tmp.10 = invoke %tmp.5 %tmp.6(%tmp.7, %tmp.9);
+        lputv %info.2 %tmp.10;
+        symbol [ info %info.2 101 12 16 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 104 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %timestamp.3 = local;
+        symbol [ timestamp %timestamp.3 104 12 21 ];
+        symbol [ Lang %tmp.11 104 24 28 ];
+        %tmp.11 = getm $.Toybox.Lang;
+        symbol [ format %tmp.12 104 29 35 ];
+        %tmp.12 = getv function %tmp.11 :format;
+        %tmp.13 = "$1$:$2$:$3$";
+        %tmp.14 = newa 3;
+        %tmp.15 = lgetv %info.2;
+        symbol [ info %tmp.15 105 13 17 ];
+        symbol [ hour %tmp.16 105 18 22 ];
+        %tmp.16 = getv %tmp.15 :hour;
+        %tmp.17 = dup %tmp.14;
+        %tmp.18 = aputv %tmp.17 0 %tmp.16;
+        %tmp.19 = lgetv %info.2;
+        symbol [ info %tmp.19 105 24 28 ];
+        symbol [ min %tmp.20 105 29 32 ];
+        %tmp.20 = getv %tmp.19 :min;
+        %tmp.21 = dup %tmp.18;
+        %tmp.22 = aputv %tmp.21 1 %tmp.20;
+        %tmp.23 = lgetv %info.2;
+        symbol [ info %tmp.23 105 34 38 ];
+        symbol [ sec %tmp.24 105 39 42 ];
+        %tmp.24 = getv %tmp.23 :sec;
+        %tmp.25 = dup %tmp.22;
+        %tmp.26 = aputv %tmp.25 2 %tmp.24;
+        %tmp.27 = invoke %tmp.11 %tmp.12(%tmp.13, %tmp.26);
+        lputv %timestamp.3 %tmp.27;
+        symbol [ timestamp %timestamp.3 104 12 21 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 108 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %reading.4 = local;
+        symbol [ reading %reading.4 108 12 19 ];
+        %tmp.28 = newd 3;
+        %tmp.29 = "timestamp";
+        %tmp.30 = lgetv %timestamp.3;
+        symbol [ timestamp %tmp.30 109 27 36 ];
+        %tmp.31 = dup %tmp.28;
+        %tmp.32 = aputv %tmp.31 %tmp.29 %tmp.30;
+        %tmp.33 = "heartRate";
+        %tmp.34 = lgetv %heartRate;
+        symbol [ heartRate %tmp.34 110 27 36 ];
+        %tmp.35 = dup %tmp.32;
+        %tmp.36 = aputv %tmp.35 %tmp.33 %tmp.34;
+        %tmp.37 = "stress";
+        %tmp.38 = lgetv %stressLevel;
+        symbol [ stressLevel %tmp.38 111 24 35 ];
+        %tmp.39 = dup %tmp.36;
+        %tmp.40 = aputv %tmp.39 %tmp.37 %tmp.38;
+        lputv %reading.4 %tmp.40;
+        symbol [ reading %reading.4 108 12 19 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 115 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %dateKey.5 = local;
+        symbol [ dateKey %dateKey.5 115 12 19 ];
+        symbol [ Lang %tmp.41 115 22 26 ];
+        %tmp.41 = getm $.Toybox.Lang;
+        symbol [ format %tmp.42 115 27 33 ];
+        %tmp.42 = getv function %tmp.41 :format;
+        %tmp.43 = "hr_$1$_$2$_$3$";
+        %tmp.44 = newa 3;
+        %tmp.45 = lgetv %info.2;
+        symbol [ info %tmp.45 116 13 17 ];
+        symbol [ year %tmp.46 116 18 22 ];
+        %tmp.46 = getv %tmp.45 :year;
+        %tmp.47 = dup %tmp.44;
+        %tmp.48 = aputv %tmp.47 0 %tmp.46;
+        %tmp.49 = lgetv %info.2;
+        symbol [ info %tmp.49 116 24 28 ];
+        symbol [ month %tmp.50 116 29 34 ];
+        %tmp.50 = getv %tmp.49 :month;
+        %tmp.51 = dup %tmp.48;
+        %tmp.52 = aputv %tmp.51 1 %tmp.50;
+        %tmp.53 = lgetv %info.2;
+        symbol [ info %tmp.53 116 36 40 ];
+        symbol [ day %tmp.54 116 41 44 ];
+        %tmp.54 = getv %tmp.53 :day;
+        %tmp.55 = dup %tmp.52;
+        %tmp.56 = aputv %tmp.55 2 %tmp.54;
+        %tmp.57 = invoke %tmp.41 %tmp.42(%tmp.43, %tmp.56);
+        lputv %dateKey.5 %tmp.57;
+        symbol [ dateKey %dateKey.5 115 12 19 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 118 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %dailyReadings.6 = local;
+        symbol [ dailyReadings %dailyReadings.6 118 12 25 ];
+        symbol [ Storage %tmp.58 118 28 35 ];
+        %tmp.58 = getm $.Toybox.Application.Storage;
+        symbol [ getValue %tmp.59 118 36 44 ];
+        %tmp.59 = getv function %tmp.58 :getValue;
+        %tmp.60 = lgetv %dateKey.5;
+        symbol [ dateKey %tmp.60 118 45 52 ];
+        %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
+        %tmp.62 = as %tmp.61 Lang.Array<Lang.Dictionary>;
+        symbol [ Lang %tmp.62 118 57 61 ];
+        symbol [ Array %tmp.62 118 62 67 ];
+        symbol [ Lang %tmp.62 118 68 72 ];
+        symbol [ Dictionary %tmp.62 118 73 83 ];
+        lputv %dailyReadings.6 %tmp.62;
+        symbol [ dailyReadings %dailyReadings.6 118 12 25 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 119 8 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_8_121_8_if_stmt:
+        %tmp.63 = lgetv %dailyReadings.6;
+        symbol [ dailyReadings %tmp.63 119 12 25 ];
+        %tmp.64 = null;
+        %tmp.65 = eq %tmp.63 %tmp.64;
+        bf %tmp.65 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_8_121_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_8_121_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_35_121_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 120 12 ]
+        %tmp.66 = newa 0 Lang.Array<Lang.Dictionary>;
+        symbol [ Lang %tmp.66 120 34 38 ];
+        symbol [ Array %tmp.66 120 39 44 ];
+        symbol [ Lang %tmp.66 120 45 49 ];
+        symbol [ Dictionary %tmp.66 120 50 60 ];
+        lputv %dailyReadings.6 %tmp.66;
+        symbol [ dailyReadings %dailyReadings.6 120 12 25 ];
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_35_121_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_8_121_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_119_8_121_8_if_end:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 123 8 ]
+        %tmp.67 = lgetv %dailyReadings.6;
+        symbol [ dailyReadings %tmp.67 123 8 21 ];
+        symbol [ add %tmp.68 123 22 25 ];
+        %tmp.68 = getv function %tmp.67 :add;
+        %tmp.69 = lgetv %reading.4;
+        symbol [ reading %tmp.69 123 26 33 ];
+        invoke %tmp.67 %tmp.68(%tmp.69);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 124 8 ]
+        symbol [ Storage %tmp.70 124 8 15 ];
+        %tmp.70 = getm $.Toybox.Application.Storage;
+        symbol [ setValue %tmp.71 124 16 24 ];
+        %tmp.71 = getv function %tmp.70 :setValue;
+        %tmp.72 = lgetv %dateKey.5;
+        symbol [ dateKey %tmp.72 124 25 32 ];
+        %tmp.73 = lgetv %dailyReadings.6;
+        symbol [ dailyReadings %tmp.73 124 34 47 ];
+        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.73);
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 127 8 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop" ]
+        %exporter.7 = local;
+        symbol [ exporter %exporter.7 127 12 20 ];
+        symbol [ DataExporter %tmp.77 127 27 39 ];
+        %tmp.77 = getv ? :DataExporter;
+        %tmp.74 = newc %tmp.77 ();
+        lputv %exporter.7 %tmp.74;
+        symbol [ exporter %exporter.7 127 12 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc" 128 8 ]
+        symbol [ Sys %tmp.78 128 8 11 ];
+        %tmp.78 = getm $.Toybox.System;
+        symbol [ println %tmp.79 128 12 19 ];
+        %tmp.79 = getv function %tmp.78 :println;
+        %tmp.80 = lgetv %exporter.7;
+        symbol [ exporter %tmp.80 128 20 28 ];
+        symbol [ exportTodayAsJSON %tmp.81 128 29 46 ];
+        %tmp.81 = getv function %tmp.80 :exportTodayAsJSON;
+        %tmp.82 = invoke %tmp.80 %tmp.81();
+        invoke %tmp.78 %tmp.79(%tmp.82);
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableView_mc_99_89_129_4_stop:
+    }
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 131; @symbol_functiondef = [onHide,131,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\AIWearableView.mc"; @line = 1; ]
+<init> {
+}

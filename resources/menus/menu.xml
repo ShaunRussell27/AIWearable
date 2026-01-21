@@ -1,0 +1,5 @@
+<menu id="MainMenu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <menu-item id="export_data" label="@Strings.export_data" />
+    <menu-item id="upload_data" label="@Strings.upload_data" />
+    <menu-item id="item_2" label="@Strings.menu_label_2" />
+</menu>
