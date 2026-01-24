@@ -111,7 +111,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         symbol [ exporter %tmp.27 22 12 20 ];
         symbol [ uploadToServer %tmp.28 22 21 35 ];
         %tmp.28 = getv function %tmp.27 :uploadToServer;
-        %tmp.29 = "https://aiwearable-server.railway.app/api/health-data";
+        %tmp.29 = "aiwearable-production.up.railway.app";
         invoke %tmp.27 %tmp.28(%tmp.29);
 C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_41_23_8_stop:
         goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_20_15_25_8_if_end;

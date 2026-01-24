@@ -1,5 +1,5 @@
 using Toybox.Application.Storage as Storage;
-using Toybox.IO as IO;
+// Removed Toybox.IO as it is not supported on vivoactive5
 using Toybox.Time as Time;
 using Toybox.Lang as Lang;
 using Toybox.System as Sys;
@@ -40,17 +40,16 @@ class DataExporter {
 
     function saveToFile() as Lang.Boolean {
         try {
+            var json = exportTodayAsJSON();
             var now = Time.now();
             var info = Time.Gregorian.info(now, Time.FORMAT_SHORT);
-            var filename = Lang.format("/AIWearable_$1$_$2$_$3$.json", 
+            var backupKey = Lang.format("backup_$1$_$2$_$3$", 
                 [info.year, info.month, info.day]);
             
-            var json = exportTodayAsJSON();
-            var file = IO.File.open(filename, IO.FILE_MODE_WRITE);
-            file.write(json.toUtf8());
-            file.close();
+            // Store JSON as backup in device storage instead of file
+            Storage.setValue(backupKey, json);
             
-            Sys.println("✓ Data exported to: " + filename);
+            Sys.println("✓ Data saved to device storage");
             return true;
         } catch (e) {
             Sys.println("✗ Export failed: " + e.getErrorMessage());
@@ -62,17 +61,21 @@ class DataExporter {
         try {
             var json = exportTodayAsJSON();
             
+            var body = ({
+                :data => json
+            } as Lang.Dictionary<Lang.Object, Lang.Object>);
+            
             var headers = {
                 "Content-Type" => "application/json"
             } as Lang.Dictionary<Lang.String, Lang.String>;
             
             var options = {
-                :requestMethod => Comm.HTTP_REQUEST_METHOD_POST,
+                :method => Comm.HTTP_REQUEST_METHOD_POST,
                 :headers => headers,
                 :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
-            } as Lang.Dictionary<Lang.String, Lang.Object>;
+            } as Lang.Dictionary;
             
-            Comm.makeWebRequest(serverUrl, json, options, method(:onUploadResponse));
+            Comm.makeWebRequest(serverUrl, body, options, method(:onUploadResponse));
             Sys.println("✓ Uploading data to server...");
             return true;
         } catch (e) {

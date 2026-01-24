@@ -27,7 +27,8 @@ module Rez {
         class MainMenu extends WatchUi.Menu {
             function initialize() {
                 Menu.initialize();
-                addItem((WatchUi.loadResource($.Rez.Strings.menu_label_1) as String), :item_1);
+                addItem((WatchUi.loadResource($.Rez.Strings.export_data) as String), :export_data);
+                addItem((WatchUi.loadResource($.Rez.Strings.upload_data) as String), :upload_data);
                 addItem((WatchUi.loadResource($.Rez.Strings.menu_label_2) as String), :item_2);
             }
         }
@@ -35,7 +36,9 @@ module Rez {
 
     module Strings {
         (:initialized) var menu_label_1 as ResourceId;
+        (:initialized) var export_data as ResourceId;
         (:initialized) var menu_label_2 as ResourceId;
+        (:initialized) var upload_data as ResourceId;
         (:initialized) var prompt as ResourceId;
         (:initialized) var AppName as ResourceId;
     } // Strings

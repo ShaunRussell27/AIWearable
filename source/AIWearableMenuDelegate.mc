@@ -19,7 +19,7 @@ class AIWearableMenuDelegate extends WatchUi.MenuInputDelegate {
             }
         } else if (item == :upload_data) {
             var exporter = new DataExporter();
-            exporter.uploadToServer("https://aiwearable-server.railway.app/api/health-data");
+            exporter.uploadToServer("aiwearable-production.up.railway.app");
         } else if (item == :item_2) {
             System.println("item 2");
         }
