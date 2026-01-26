@@ -177,7 +177,8 @@ def get_data_stats():
         return jsonify({"status": "error", "message": str(e)}), 400
 
 
-if __name__ == '__main__':
+def startup_message():
+    """Print startup info"""
     print("\n" + "="*50)
     print("AIWearable Server Starting")
     print("="*50)
@@ -190,9 +191,9 @@ if __name__ == '__main__':
     print("  GET  /api/data/latest    - Get latest N readings")
     print("  GET  /api/data/stats     - Get data statistics")
     print("="*50 + "\n")
-    
-    # Check if running on Railway (production)
-    if os.getenv('RAILWAY_ENVIRONMENT'):
-        app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
-    else:
-        app.run(host='0.0.0.0', port=5000, debug=True)
+
+startup_message()
+
+if __name__ == '__main__':
+    # Local development only
+    app.run(host='0.0.0.0', port=5000, debug=True)
