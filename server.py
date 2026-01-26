@@ -153,7 +153,7 @@ def get_data_stats():
                 "stress_levels": []
             }), 200
         
-        heart_rates = [r['heartRate'] for r in all_readings if r.get('heartRate')]
+        heart_rates = [r['heartRate'] for r in all_readings if r.get('heartRate') is not None]
         stress_levels = [r['stress'] for r in all_readings if r.get('stress') is not None]
         
         stats = {
