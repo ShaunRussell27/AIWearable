@@ -195,4 +195,8 @@ if __name__ == '__main__':
     print("  GET  /api/data/latest    - Get latest N readings")
     print("  GET  /api/data/stats     - Get data statistics")
     print("="*50 + "\n")
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)), debug=False)
+
+# Ensure app is available for gunicorn
+if not app:
+    raise RuntimeError("Flask app not initialized")
