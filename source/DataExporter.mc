@@ -26,7 +26,9 @@ class DataExporter {
                 json += "    {\n";
                 json += "      \"timestamp\": \"" + reading["timestamp"] + "\",\n";
                 json += "      \"heartRate\": " + reading["heartRate"] + ",\n";
-                json += "      \"stress\": " + reading["stress"] + "\n";
+                json += "      \"restingHeartRate\": " + reading["restingHeartRate"] + ",\n";
+                json += "      \"vo2Max\": " + reading["vo2Max"] + ",\n";
+                json += "      \"trainingStatus\": \"" + reading["trainingStatus"] + "\"\n";
                 json += "    }";
                 if (i < readings.size() - 1) { json += ","; }
                 json += "\n";

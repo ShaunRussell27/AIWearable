@@ -69,7 +69,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         %tmp.13 = getm $.Toybox.System;
         symbol [ println %tmp.14 16 23 30 ];
         %tmp.14 = getv function %tmp.13 :println;
-        %tmp.15 = "? Data exported successfully";
+        %tmp.15 = "✓ Data exported successfully";
         invoke %tmp.13 %tmp.14(%tmp.15);
 C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_25_17_12_stop:
         goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_end;
@@ -80,7 +80,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         %tmp.16 = getm $.Toybox.System;
         symbol [ println %tmp.17 18 23 30 ];
         %tmp.17 = getv function %tmp.16 :println;
-        %tmp.18 = "? Data export failed";
+        %tmp.18 = "✗ Data export failed";
         invoke %tmp.16 %tmp.17(%tmp.18);
 C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_17_19_19_12_stop:
 C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_AIWearableMenuDelegate_mc_15_12_19_12_if_end:

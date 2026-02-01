@@ -2,286 +2,338 @@
 <debugInfo>
     <manifest filename="C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="1" lineNum="27" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="1" lineNum="28" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="3" lineNum="44" parent="globals/AIWearableView" pc="268435501" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="4" lineNum="6" parent="globals/AIWearableApp" pc="268435513" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="5" lineNum="4" parent="globals/AIWearableDelegate" pc="268435525" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="6" lineNum="5" parent="globals/AIWearableMenuDelegate" pc="268435537" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="41" parent="globals/DataExporter" pc="268435549" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="43" parent="globals/DataExporter" pc="268435552" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="44" parent="globals/DataExporter" pc="268435560" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="45" parent="globals/DataExporter" pc="268435572" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="46" parent="globals/DataExporter" pc="268435589" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="50" parent="globals/DataExporter" pc="268435639" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="52" parent="globals/DataExporter" pc="268435656" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="53" parent="globals/DataExporter" pc="268435674" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="54" parent="globals/DataExporter" pc="268435685" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="55" parent="globals/DataExporter" pc="268435689" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="7" lineNum="56" parent="globals/DataExporter" pc="268435715" symbol="saveToFile"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="60" parent="globals/DataExporter" pc="268435734" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="62" parent="globals/DataExporter" pc="268435737" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="64" parent="globals/DataExporter" pc="268435745" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="68" parent="globals/DataExporter" pc="268435760" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="72" parent="globals/DataExporter" pc="268435767" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="78" parent="globals/DataExporter" pc="268435797" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="79" parent="globals/DataExporter" pc="268435829" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="80" parent="globals/DataExporter" pc="268435847" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="81" parent="globals/DataExporter" pc="268435858" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="82" parent="globals/DataExporter" pc="268435862" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="83" parent="globals/DataExporter" pc="268435888" symbol="uploadToServer"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="87" parent="globals/DataExporter" pc="268435907" symbol="onUploadResponse"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="88" parent="globals/DataExporter" pc="268435909" symbol="onUploadResponse"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="89" parent="globals/DataExporter" pc="268435918" symbol="onUploadResponse"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="91" parent="globals/DataExporter" pc="268435939" symbol="onUploadResponse"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="10" parent="globals/DataExporter" pc="268435961" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="12" parent="globals/DataExporter" pc="268435964" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="13" parent="globals/DataExporter" pc="268435976" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="15" parent="globals/DataExporter" pc="268435993" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="17" parent="globals/DataExporter" pc="268436043" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="19" parent="globals/DataExporter" pc="268436059" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="20" parent="globals/DataExporter" pc="268436066" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="21" parent="globals/DataExporter" pc="268436115" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="23" parent="globals/DataExporter" pc="268436125" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="24" parent="globals/DataExporter" pc="268436131" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="25" parent="globals/DataExporter" pc="268436148" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="26" parent="globals/DataExporter" pc="268436155" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="27" parent="globals/DataExporter" pc="268436165" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="28" parent="globals/DataExporter" pc="268436190" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="29" parent="globals/DataExporter" pc="268436215" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="30" parent="globals/DataExporter" pc="268436240" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="31" parent="globals/DataExporter" pc="268436250" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="31" parent="globals/DataExporter" pc="268436267" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="32" parent="globals/DataExporter" pc="268436280" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="36" parent="globals/DataExporter" pc="268436303" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="37" parent="globals/DataExporter" pc="268436313" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="11" lineNum="38" parent="globals/DataExporter" pc="268436323" symbol="exportTodayAsJSON"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="16" parent="globals/AIWearableTests" pc="268436326" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="17" parent="globals/AIWearableTests" pc="268436329" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="19" parent="globals/AIWearableTests" pc="268436347" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="20" parent="globals/AIWearableTests" pc="268436350" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="23" parent="globals/AIWearableTests" pc="268436353" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="24" parent="globals/AIWearableTests" pc="268436360" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="25" parent="globals/AIWearableTests" pc="268436369" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="26" parent="globals/AIWearableTests" pc="268436387" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="28" parent="globals/AIWearableTests" pc="268436397" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="32" parent="globals/AIWearableTests" pc="268436415" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="33" parent="globals/AIWearableTests" pc="268436422" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="34" parent="globals/AIWearableTests" pc="268436431" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="35" parent="globals/AIWearableTests" pc="268436449" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="37" parent="globals/AIWearableTests" pc="268436459" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="41" parent="globals/AIWearableTests" pc="268436477" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="42" parent="globals/AIWearableTests" pc="268436484" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="43" parent="globals/AIWearableTests" pc="268436493" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="44" parent="globals/AIWearableTests" pc="268436511" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="46" parent="globals/AIWearableTests" pc="268436521" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="50" parent="globals/AIWearableTests" pc="268436539" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="51" parent="globals/AIWearableTests" pc="268436546" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="52" parent="globals/AIWearableTests" pc="268436555" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="53" parent="globals/AIWearableTests" pc="268436573" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="55" parent="globals/AIWearableTests" pc="268436583" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="59" parent="globals/AIWearableTests" pc="268436601" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="60" parent="globals/AIWearableTests" pc="268436608" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="61" parent="globals/AIWearableTests" pc="268436617" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="62" parent="globals/AIWearableTests" pc="268436635" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="64" parent="globals/AIWearableTests" pc="268436645" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="68" parent="globals/AIWearableTests" pc="268436663" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="69" parent="globals/AIWearableTests" pc="268436670" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="70" parent="globals/AIWearableTests" pc="268436679" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="71" parent="globals/AIWearableTests" pc="268436697" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="73" parent="globals/AIWearableTests" pc="268436707" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="77" parent="globals/AIWearableTests" pc="268436725" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="78" parent="globals/AIWearableTests" pc="268436743" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="79" parent="globals/AIWearableTests" pc="268436773" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="81" parent="globals/AIWearableTests" pc="268436806" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="82" parent="globals/AIWearableTests" pc="268436814" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="12" lineNum="84" parent="globals/AIWearableTests" pc="268436835" symbol="runAllTests"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="171" parent="globals/AIWearableTests" pc="268436854" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="174" parent="globals/AIWearableTests" pc="268436857" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="175" parent="globals/AIWearableTests" pc="268436861" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="176" parent="globals/AIWearableTests" pc="268436866" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="177" parent="globals/AIWearableTests" pc="268436869" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="180" parent="globals/AIWearableTests" pc="268436874" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="180" parent="globals/AIWearableTests" pc="268436891" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="181" parent="globals/AIWearableTests" pc="268436899" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="181" parent="globals/AIWearableTests" pc="268436916" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="184" parent="globals/AIWearableTests" pc="268436924" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="184" parent="globals/AIWearableTests" pc="268436941" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="185" parent="globals/AIWearableTests" pc="268436949" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="185" parent="globals/AIWearableTests" pc="268436966" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="187" parent="globals/AIWearableTests" pc="268436974" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="188" parent="globals/AIWearableTests" pc="268436985" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="189" parent="globals/AIWearableTests" pc="268436989" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="13" lineNum="190" parent="globals/AIWearableTests" pc="268437015" symbol="testInvalidHeartRate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="148" parent="globals/AIWearableTests" pc="268437034" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="150" parent="globals/AIWearableTests" pc="268437037" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="151" parent="globals/AIWearableTests" pc="268437057" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="154" parent="globals/AIWearableTests" pc="268437066" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="154" parent="globals/AIWearableTests" pc="268437084" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="155" parent="globals/AIWearableTests" pc="268437092" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="155" parent="globals/AIWearableTests" pc="268437110" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="156" parent="globals/AIWearableTests" pc="268437118" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="156" parent="globals/AIWearableTests" pc="268437136" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="157" parent="globals/AIWearableTests" pc="268437144" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="157" parent="globals/AIWearableTests" pc="268437162" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="158" parent="globals/AIWearableTests" pc="268437170" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="158" parent="globals/AIWearableTests" pc="268437188" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="159" parent="globals/AIWearableTests" pc="268437196" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="159" parent="globals/AIWearableTests" pc="268437214" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="161" parent="globals/AIWearableTests" pc="268437222" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="162" parent="globals/AIWearableTests" pc="268437233" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="163" parent="globals/AIWearableTests" pc="268437237" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="14" lineNum="164" parent="globals/AIWearableTests" pc="268437263" symbol="testJSONExport"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="197" parent="globals/AIWearableTests" pc="268437282" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="200" parent="globals/AIWearableTests" pc="268437285" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="201" parent="globals/AIWearableTests" pc="268437292" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="204" parent="globals/AIWearableTests" pc="268437307" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="207" parent="globals/AIWearableTests" pc="268437323" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="207" parent="globals/AIWearableTests" pc="268437329" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="209" parent="globals/AIWearableTests" pc="268437337" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="210" parent="globals/AIWearableTests" pc="268437348" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="211" parent="globals/AIWearableTests" pc="268437352" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="212" parent="globals/AIWearableTests" pc="268437378" symbol="testEmptyStorage"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="91" parent="globals/AIWearableTests" pc="268437397" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="94" parent="globals/AIWearableTests" pc="268437400" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="101" parent="globals/AIWearableTests" pc="268437407" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="101" parent="globals/AIWearableTests" pc="268437419" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="102" parent="globals/AIWearableTests" pc="268437427" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="102" parent="globals/AIWearableTests" pc="268437439" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="103" parent="globals/AIWearableTests" pc="268437447" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="103" parent="globals/AIWearableTests" pc="268437459" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="106" parent="globals/AIWearableTests" pc="268437467" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="106" parent="globals/AIWearableTests" pc="268437489" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="107" parent="globals/AIWearableTests" pc="268437497" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="107" parent="globals/AIWearableTests" pc="268437519" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="109" parent="globals/AIWearableTests" pc="268437527" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="110" parent="globals/AIWearableTests" pc="268437538" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="111" parent="globals/AIWearableTests" pc="268437542" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="112" parent="globals/AIWearableTests" pc="268437568" symbol="testDataRecording"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="219" parent="globals/AIWearableTests" pc="268437587" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="221" parent="globals/AIWearableTests" pc="268437590" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="222" parent="globals/AIWearableTests" pc="268437602" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="224" parent="globals/AIWearableTests" pc="268437619" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="228" parent="globals/AIWearableTests" pc="268437669" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="228" parent="globals/AIWearableTests" pc="268437687" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="231" parent="globals/AIWearableTests" pc="268437695" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="231" parent="globals/AIWearableTests" pc="268437708" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="233" parent="globals/AIWearableTests" pc="268437716" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="234" parent="globals/AIWearableTests" pc="268437727" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="235" parent="globals/AIWearableTests" pc="268437731" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="236" parent="globals/AIWearableTests" pc="268437757" symbol="testTimestampFormat"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="119" parent="globals/AIWearableTests" pc="268437776" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="121" parent="globals/AIWearableTests" pc="268437779" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="122" parent="globals/AIWearableTests" pc="268437786" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="127" parent="globals/AIWearableTests" pc="268437800" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="130" parent="globals/AIWearableTests" pc="268437817" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="131" parent="globals/AIWearableTests" pc="268437833" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="131" parent="globals/AIWearableTests" pc="268437839" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="132" parent="globals/AIWearableTests" pc="268437847" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="132" parent="globals/AIWearableTests" pc="268437860" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="133" parent="globals/AIWearableTests" pc="268437868" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="133" parent="globals/AIWearableTests" pc="268437884" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="136" parent="globals/AIWearableTests" pc="268437892" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="138" parent="globals/AIWearableTests" pc="268437907" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="139" parent="globals/AIWearableTests" pc="268437918" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="140" parent="globals/AIWearableTests" pc="268437922" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="141" parent="globals/AIWearableTests" pc="268437948" symbol="testStorageMechanism"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="55" parent="globals/AIWearableView" pc="268437967" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="56" parent="globals/AIWearableView" pc="268437970" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="57" parent="globals/AIWearableView" pc="268437995" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="58" parent="globals/AIWearableView" pc="268438045" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="59" parent="globals/AIWearableView" pc="268438061" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="61" parent="globals/AIWearableView" pc="268438098" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="63" parent="globals/AIWearableView" pc="268438109" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="20" lineNum="64" parent="globals/AIWearableView" pc="268438129" symbol="onShow"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="21" lineNum="51" parent="globals/AIWearableView" pc="268438138" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="21" lineNum="52" parent="globals/AIWearableView" pc="268438140" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="67" parent="globals/AIWearableView" pc="268438153" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="68" parent="globals/AIWearableView" pc="268438156" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="69" parent="globals/AIWearableView" pc="268438168" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="72" parent="globals/AIWearableView" pc="268438176" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="73" parent="globals/AIWearableView" pc="268438192" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="74" parent="globals/AIWearableView" pc="268438198" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="75" parent="globals/AIWearableView" pc="268438208" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="76" parent="globals/AIWearableView" pc="268438228" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="79" parent="globals/AIWearableView" pc="268438248" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="83" parent="globals/AIWearableView" pc="268438257" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="84" parent="globals/AIWearableView" pc="268438275" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="85" parent="globals/AIWearableView" pc="268438292" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="86" parent="globals/AIWearableView" pc="268438311" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="89" parent="globals/AIWearableView" pc="268438323" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="90" parent="globals/AIWearableView" pc="268438340" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="92" parent="globals/AIWearableView" pc="268438377" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="96" parent="globals/AIWearableView" pc="268438414" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="99" parent="globals/AIWearableView" pc="268438426" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="100" parent="globals/AIWearableView" pc="268438429" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="101" parent="globals/AIWearableView" pc="268438441" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="104" parent="globals/AIWearableView" pc="268438458" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="108" parent="globals/AIWearableView" pc="268438508" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="115" parent="globals/AIWearableView" pc="268438539" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="118" parent="globals/AIWearableView" pc="268438589" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="119" parent="globals/AIWearableView" pc="268438605" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="120" parent="globals/AIWearableView" pc="268438611" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="123" parent="globals/AIWearableView" pc="268438618" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="124" parent="globals/AIWearableView" pc="268438630" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="127" parent="globals/AIWearableView" pc="268438647" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="128" parent="globals/AIWearableView" pc="268438667" symbol="recordReading"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="25" lineNum="13" parent="globals/AIWearableApp" pc="268438688" symbol="onStart"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="26" lineNum="21" parent="globals/AIWearableApp" pc="268438691" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="26" lineNum="22" parent="globals/AIWearableApp" pc="268438693" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="27" lineNum="8" parent="globals/AIWearableApp" pc="268438740" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="27" lineNum="9" parent="globals/AIWearableApp" pc="268438742" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="28" lineNum="17" parent="globals/AIWearableApp" pc="268438755" symbol="onStop"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="29" lineNum="10" parent="globals/AIWearableDelegate" pc="268438758" symbol="onMenu"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="29" lineNum="11" parent="globals/AIWearableDelegate" pc="268438760" symbol="onMenu"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="29" lineNum="12" parent="globals/AIWearableDelegate" pc="268438825" symbol="onMenu"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="30" lineNum="6" parent="globals/AIWearableDelegate" pc="268438827" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="30" lineNum="7" parent="globals/AIWearableDelegate" pc="268438829" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="11" parent="globals/AIWearableMenuDelegate" pc="268438842" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="12" parent="globals/AIWearableMenuDelegate" pc="268438845" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="13" parent="globals/AIWearableMenuDelegate" pc="268438856" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="14" parent="globals/AIWearableMenuDelegate" pc="268438876" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="15" parent="globals/AIWearableMenuDelegate" pc="268438885" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="16" parent="globals/AIWearableMenuDelegate" pc="268438890" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="18" parent="globals/AIWearableMenuDelegate" pc="268438911" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="20" parent="globals/AIWearableMenuDelegate" pc="268438932" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="21" parent="globals/AIWearableMenuDelegate" pc="268438943" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="22" parent="globals/AIWearableMenuDelegate" pc="268438963" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="23" parent="globals/AIWearableMenuDelegate" pc="268438981" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="31" lineNum="24" parent="globals/AIWearableMenuDelegate" pc="268438992" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="32" lineNum="7" parent="globals/AIWearableMenuDelegate" pc="268439014" symbol="initialize"/>
-        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="32" lineNum="8" parent="globals/AIWearableMenuDelegate" pc="268439016" symbol="initialize"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="33" lineNum="14" parent="globals/Rez/Layouts" pc="268439029" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="33" lineNum="15" parent="globals/Rez/Layouts" pc="268439040" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="33" lineNum="17" parent="globals/Rez/Layouts" pc="268439049" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="33" lineNum="19" parent="globals/Rez/Layouts" pc="268439152" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="33" lineNum="20" parent="globals/Rez/Layouts" pc="268439236" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="33" lineNum="22" parent="globals/Rez/Layouts" pc="268439267" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="34" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268439282" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="35" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268439294" symbol="initialize"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="35" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268439296" symbol="initialize"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="35" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268439308" symbol="initialize"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="35" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268439353" symbol="initialize"/>
-        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="35" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268439398" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="1" lineNum="28" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="1" lineNum="29" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="2" lineNum="211" parent="globals/AIWearableInputDelegate" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="4" lineNum="45" parent="globals/AIWearableView" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="4" lineNum="57" parent="globals/AIWearableView" pc="268435524" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="5" lineNum="6" parent="globals/AIWearableApp" pc="268435568" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="6" lineNum="4" parent="globals/AIWearableDelegate" pc="268435580" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="7" lineNum="5" parent="globals/AIWearableMenuDelegate" pc="268435592" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="43" parent="globals/DataExporter" pc="268435604" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="45" parent="globals/DataExporter" pc="268435607" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="46" parent="globals/DataExporter" pc="268435615" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="47" parent="globals/DataExporter" pc="268435627" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="48" parent="globals/DataExporter" pc="268435644" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="52" parent="globals/DataExporter" pc="268435694" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="54" parent="globals/DataExporter" pc="268435711" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="55" parent="globals/DataExporter" pc="268435729" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="56" parent="globals/DataExporter" pc="268435740" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="57" parent="globals/DataExporter" pc="268435744" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="8" lineNum="58" parent="globals/DataExporter" pc="268435770" symbol="saveToFile"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="62" parent="globals/DataExporter" pc="268435789" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="64" parent="globals/DataExporter" pc="268435792" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="66" parent="globals/DataExporter" pc="268435800" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="70" parent="globals/DataExporter" pc="268435815" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="74" parent="globals/DataExporter" pc="268435822" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="80" parent="globals/DataExporter" pc="268435852" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="81" parent="globals/DataExporter" pc="268435884" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="82" parent="globals/DataExporter" pc="268435902" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="83" parent="globals/DataExporter" pc="268435913" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="84" parent="globals/DataExporter" pc="268435917" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="9" lineNum="85" parent="globals/DataExporter" pc="268435943" symbol="uploadToServer"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="10" lineNum="89" parent="globals/DataExporter" pc="268435962" symbol="onUploadResponse"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="10" lineNum="90" parent="globals/DataExporter" pc="268435964" symbol="onUploadResponse"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="10" lineNum="91" parent="globals/DataExporter" pc="268435973" symbol="onUploadResponse"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="10" lineNum="93" parent="globals/DataExporter" pc="268435994" symbol="onUploadResponse"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="10" parent="globals/DataExporter" pc="268436016" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="12" parent="globals/DataExporter" pc="268436019" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="13" parent="globals/DataExporter" pc="268436031" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="15" parent="globals/DataExporter" pc="268436048" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="17" parent="globals/DataExporter" pc="268436098" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="19" parent="globals/DataExporter" pc="268436114" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="20" parent="globals/DataExporter" pc="268436121" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="21" parent="globals/DataExporter" pc="268436170" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="23" parent="globals/DataExporter" pc="268436180" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="24" parent="globals/DataExporter" pc="268436186" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="25" parent="globals/DataExporter" pc="268436203" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="26" parent="globals/DataExporter" pc="268436210" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="27" parent="globals/DataExporter" pc="268436220" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="28" parent="globals/DataExporter" pc="268436245" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="29" parent="globals/DataExporter" pc="268436270" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="30" parent="globals/DataExporter" pc="268436295" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="31" parent="globals/DataExporter" pc="268436320" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="32" parent="globals/DataExporter" pc="268436345" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="33" parent="globals/DataExporter" pc="268436355" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="33" parent="globals/DataExporter" pc="268436372" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="34" parent="globals/DataExporter" pc="268436385" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="38" parent="globals/DataExporter" pc="268436408" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="39" parent="globals/DataExporter" pc="268436418" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\DataExporter.mc" id="12" lineNum="40" parent="globals/DataExporter" pc="268436428" symbol="exportTodayAsJSON"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="13" lineNum="215" parent="globals/AIWearableInputDelegate" pc="268436431" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="13" lineNum="216" parent="globals/AIWearableInputDelegate" pc="268436433" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="13" lineNum="217" parent="globals/AIWearableInputDelegate" pc="268436445" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="220" parent="globals/AIWearableInputDelegate" pc="268436455" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="221" parent="globals/AIWearableInputDelegate" pc="268436458" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="224" parent="globals/AIWearableInputDelegate" pc="268436467" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="225" parent="globals/AIWearableInputDelegate" pc="268436483" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="226" parent="globals/AIWearableInputDelegate" pc="268436524" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="227" parent="globals/AIWearableInputDelegate" pc="268436535" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="231" parent="globals/AIWearableInputDelegate" pc="268436540" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="232" parent="globals/AIWearableInputDelegate" pc="268436548" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="233" parent="globals/AIWearableInputDelegate" pc="268436606" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="234" parent="globals/AIWearableInputDelegate" pc="268436617" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="14" lineNum="237" parent="globals/AIWearableInputDelegate" pc="268436622" symbol="onKey"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="16" parent="globals/AIWearableTests" pc="268436624" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="17" parent="globals/AIWearableTests" pc="268436627" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="19" parent="globals/AIWearableTests" pc="268436645" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="20" parent="globals/AIWearableTests" pc="268436648" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="23" parent="globals/AIWearableTests" pc="268436651" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="24" parent="globals/AIWearableTests" pc="268436658" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="25" parent="globals/AIWearableTests" pc="268436667" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="26" parent="globals/AIWearableTests" pc="268436685" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="28" parent="globals/AIWearableTests" pc="268436695" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="32" parent="globals/AIWearableTests" pc="268436713" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="33" parent="globals/AIWearableTests" pc="268436720" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="34" parent="globals/AIWearableTests" pc="268436729" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="35" parent="globals/AIWearableTests" pc="268436747" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="37" parent="globals/AIWearableTests" pc="268436757" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="41" parent="globals/AIWearableTests" pc="268436775" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="42" parent="globals/AIWearableTests" pc="268436782" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="43" parent="globals/AIWearableTests" pc="268436791" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="44" parent="globals/AIWearableTests" pc="268436809" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="46" parent="globals/AIWearableTests" pc="268436819" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="50" parent="globals/AIWearableTests" pc="268436837" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="51" parent="globals/AIWearableTests" pc="268436844" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="52" parent="globals/AIWearableTests" pc="268436853" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="53" parent="globals/AIWearableTests" pc="268436871" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="55" parent="globals/AIWearableTests" pc="268436881" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="59" parent="globals/AIWearableTests" pc="268436899" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="60" parent="globals/AIWearableTests" pc="268436906" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="61" parent="globals/AIWearableTests" pc="268436915" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="62" parent="globals/AIWearableTests" pc="268436933" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="64" parent="globals/AIWearableTests" pc="268436943" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="68" parent="globals/AIWearableTests" pc="268436961" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="69" parent="globals/AIWearableTests" pc="268436968" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="70" parent="globals/AIWearableTests" pc="268436977" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="71" parent="globals/AIWearableTests" pc="268436995" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="73" parent="globals/AIWearableTests" pc="268437005" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="77" parent="globals/AIWearableTests" pc="268437023" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="78" parent="globals/AIWearableTests" pc="268437041" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="79" parent="globals/AIWearableTests" pc="268437071" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="81" parent="globals/AIWearableTests" pc="268437104" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="82" parent="globals/AIWearableTests" pc="268437112" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="15" lineNum="84" parent="globals/AIWearableTests" pc="268437133" symbol="runAllTests"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="171" parent="globals/AIWearableTests" pc="268437152" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="174" parent="globals/AIWearableTests" pc="268437155" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="175" parent="globals/AIWearableTests" pc="268437159" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="176" parent="globals/AIWearableTests" pc="268437164" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="177" parent="globals/AIWearableTests" pc="268437167" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="180" parent="globals/AIWearableTests" pc="268437172" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="180" parent="globals/AIWearableTests" pc="268437189" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="181" parent="globals/AIWearableTests" pc="268437197" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="181" parent="globals/AIWearableTests" pc="268437214" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="184" parent="globals/AIWearableTests" pc="268437222" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="184" parent="globals/AIWearableTests" pc="268437239" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="185" parent="globals/AIWearableTests" pc="268437247" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="185" parent="globals/AIWearableTests" pc="268437264" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="187" parent="globals/AIWearableTests" pc="268437272" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="188" parent="globals/AIWearableTests" pc="268437283" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="189" parent="globals/AIWearableTests" pc="268437287" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="16" lineNum="190" parent="globals/AIWearableTests" pc="268437313" symbol="testInvalidHeartRate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="148" parent="globals/AIWearableTests" pc="268437332" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="150" parent="globals/AIWearableTests" pc="268437335" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="151" parent="globals/AIWearableTests" pc="268437355" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="154" parent="globals/AIWearableTests" pc="268437364" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="154" parent="globals/AIWearableTests" pc="268437382" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="155" parent="globals/AIWearableTests" pc="268437390" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="155" parent="globals/AIWearableTests" pc="268437408" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="156" parent="globals/AIWearableTests" pc="268437416" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="156" parent="globals/AIWearableTests" pc="268437434" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="157" parent="globals/AIWearableTests" pc="268437442" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="157" parent="globals/AIWearableTests" pc="268437460" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="158" parent="globals/AIWearableTests" pc="268437468" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="158" parent="globals/AIWearableTests" pc="268437486" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="159" parent="globals/AIWearableTests" pc="268437494" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="159" parent="globals/AIWearableTests" pc="268437512" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="161" parent="globals/AIWearableTests" pc="268437520" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="162" parent="globals/AIWearableTests" pc="268437531" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="163" parent="globals/AIWearableTests" pc="268437535" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="17" lineNum="164" parent="globals/AIWearableTests" pc="268437561" symbol="testJSONExport"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="197" parent="globals/AIWearableTests" pc="268437580" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="200" parent="globals/AIWearableTests" pc="268437583" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="201" parent="globals/AIWearableTests" pc="268437590" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="204" parent="globals/AIWearableTests" pc="268437605" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="207" parent="globals/AIWearableTests" pc="268437621" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="207" parent="globals/AIWearableTests" pc="268437627" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="209" parent="globals/AIWearableTests" pc="268437635" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="210" parent="globals/AIWearableTests" pc="268437646" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="211" parent="globals/AIWearableTests" pc="268437650" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="18" lineNum="212" parent="globals/AIWearableTests" pc="268437676" symbol="testEmptyStorage"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="91" parent="globals/AIWearableTests" pc="268437695" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="94" parent="globals/AIWearableTests" pc="268437698" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="101" parent="globals/AIWearableTests" pc="268437705" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="101" parent="globals/AIWearableTests" pc="268437717" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="102" parent="globals/AIWearableTests" pc="268437725" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="102" parent="globals/AIWearableTests" pc="268437737" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="103" parent="globals/AIWearableTests" pc="268437745" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="103" parent="globals/AIWearableTests" pc="268437757" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="106" parent="globals/AIWearableTests" pc="268437765" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="106" parent="globals/AIWearableTests" pc="268437787" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="107" parent="globals/AIWearableTests" pc="268437795" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="107" parent="globals/AIWearableTests" pc="268437817" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="109" parent="globals/AIWearableTests" pc="268437825" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="110" parent="globals/AIWearableTests" pc="268437836" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="111" parent="globals/AIWearableTests" pc="268437840" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="19" lineNum="112" parent="globals/AIWearableTests" pc="268437866" symbol="testDataRecording"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="219" parent="globals/AIWearableTests" pc="268437885" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="221" parent="globals/AIWearableTests" pc="268437888" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="222" parent="globals/AIWearableTests" pc="268437900" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="224" parent="globals/AIWearableTests" pc="268437917" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="228" parent="globals/AIWearableTests" pc="268437967" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="228" parent="globals/AIWearableTests" pc="268437985" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="231" parent="globals/AIWearableTests" pc="268437993" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="231" parent="globals/AIWearableTests" pc="268438006" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="233" parent="globals/AIWearableTests" pc="268438014" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="234" parent="globals/AIWearableTests" pc="268438025" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="235" parent="globals/AIWearableTests" pc="268438029" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="20" lineNum="236" parent="globals/AIWearableTests" pc="268438055" symbol="testTimestampFormat"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="119" parent="globals/AIWearableTests" pc="268438074" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="121" parent="globals/AIWearableTests" pc="268438077" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="122" parent="globals/AIWearableTests" pc="268438084" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="127" parent="globals/AIWearableTests" pc="268438098" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="130" parent="globals/AIWearableTests" pc="268438115" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="131" parent="globals/AIWearableTests" pc="268438131" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="131" parent="globals/AIWearableTests" pc="268438137" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="132" parent="globals/AIWearableTests" pc="268438145" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="132" parent="globals/AIWearableTests" pc="268438158" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="133" parent="globals/AIWearableTests" pc="268438166" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="133" parent="globals/AIWearableTests" pc="268438182" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="136" parent="globals/AIWearableTests" pc="268438190" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="138" parent="globals/AIWearableTests" pc="268438205" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="139" parent="globals/AIWearableTests" pc="268438216" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="140" parent="globals/AIWearableTests" pc="268438220" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\Tests.mc" id="22" lineNum="141" parent="globals/AIWearableTests" pc="268438246" symbol="testStorageMechanism"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="68" parent="globals/AIWearableView" pc="268438265" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="69" parent="globals/AIWearableView" pc="268438268" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="70" parent="globals/AIWearableView" pc="268438293" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="71" parent="globals/AIWearableView" pc="268438343" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="72" parent="globals/AIWearableView" pc="268438359" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="74" parent="globals/AIWearableView" pc="268438396" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="76" parent="globals/AIWearableView" pc="268438407" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="23" lineNum="77" parent="globals/AIWearableView" pc="268438427" symbol="onShow"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="136" parent="globals/AIWearableView" pc="268438436" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="137" parent="globals/AIWearableView" pc="268438439" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="138" parent="globals/AIWearableView" pc="268438452" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="139" parent="globals/AIWearableView" pc="268438462" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="140" parent="globals/AIWearableView" pc="268438472" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="142" parent="globals/AIWearableView" pc="268438482" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="143" parent="globals/AIWearableView" pc="268438489" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="144" parent="globals/AIWearableView" pc="268438504" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="145" parent="globals/AIWearableView" pc="268438535" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="146" parent="globals/AIWearableView" pc="268438550" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="148" parent="globals/AIWearableView" pc="268438557" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="151" parent="globals/AIWearableView" pc="268438567" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="154" parent="globals/AIWearableView" pc="268438584" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="158" parent="globals/AIWearableView" pc="268438612" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="162" parent="globals/AIWearableView" pc="268438640" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="163" parent="globals/AIWearableView" pc="268438652" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="168" parent="globals/AIWearableView" pc="268438684" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="24" lineNum="169" parent="globals/AIWearableView" pc="268438712" symbol="drawMetricDisplay"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="25" lineNum="64" parent="globals/AIWearableView" pc="268438749" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="25" lineNum="65" parent="globals/AIWearableView" pc="268438751" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="80" parent="globals/AIWearableView" pc="268438764" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="81" parent="globals/AIWearableView" pc="268438767" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="82" parent="globals/AIWearableView" pc="268438779" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="85" parent="globals/AIWearableView" pc="268438787" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="86" parent="globals/AIWearableView" pc="268438803" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="87" parent="globals/AIWearableView" pc="268438809" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="88" parent="globals/AIWearableView" pc="268438819" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="89" parent="globals/AIWearableView" pc="268438839" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="92" parent="globals/AIWearableView" pc="268438859" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="96" parent="globals/AIWearableView" pc="268438868" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="97" parent="globals/AIWearableView" pc="268438880" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="99" parent="globals/AIWearableView" pc="268438886" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="100" parent="globals/AIWearableView" pc="268438908" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="101" parent="globals/AIWearableView" pc="268438925" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="102" parent="globals/AIWearableView" pc="268438947" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="104" parent="globals/AIWearableView" pc="268438964" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="110" parent="globals/AIWearableView" pc="268438979" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="111" parent="globals/AIWearableView" pc="268438996" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="113" parent="globals/AIWearableView" pc="268439011" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="117" parent="globals/AIWearableView" pc="268439023" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="118" parent="globals/AIWearableView" pc="268439041" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="119" parent="globals/AIWearableView" pc="268439060" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="120" parent="globals/AIWearableView" pc="268439079" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="123" parent="globals/AIWearableView" pc="268439098" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="124" parent="globals/AIWearableView" pc="268439116" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="125" parent="globals/AIWearableView" pc="268439133" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="126" parent="globals/AIWearableView" pc="268439162" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="130" parent="globals/AIWearableView" pc="268439174" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="27" lineNum="133" parent="globals/AIWearableView" pc="268439185" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="173" parent="globals/AIWearableView" pc="268439197" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="174" parent="globals/AIWearableView" pc="268439200" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="175" parent="globals/AIWearableView" pc="268439212" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="178" parent="globals/AIWearableView" pc="268439229" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="182" parent="globals/AIWearableView" pc="268439279" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="191" parent="globals/AIWearableView" pc="268439326" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="194" parent="globals/AIWearableView" pc="268439376" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="195" parent="globals/AIWearableView" pc="268439392" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="196" parent="globals/AIWearableView" pc="268439398" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="199" parent="globals/AIWearableView" pc="268439405" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="200" parent="globals/AIWearableView" pc="268439417" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="203" parent="globals/AIWearableView" pc="268439434" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableView.mc" id="28" lineNum="204" parent="globals/AIWearableView" pc="268439454" symbol="recordReading"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="29" lineNum="13" parent="globals/AIWearableApp" pc="268439475" symbol="onStart"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="30" lineNum="21" parent="globals/AIWearableApp" pc="268439478" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="30" lineNum="22" parent="globals/AIWearableApp" pc="268439481" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="30" lineNum="23" parent="globals/AIWearableApp" pc="268439501" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="31" lineNum="8" parent="globals/AIWearableApp" pc="268439534" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="31" lineNum="9" parent="globals/AIWearableApp" pc="268439536" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableApp.mc" id="32" lineNum="17" parent="globals/AIWearableApp" pc="268439549" symbol="onStop"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="33" lineNum="10" parent="globals/AIWearableDelegate" pc="268439552" symbol="onMenu"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="33" lineNum="11" parent="globals/AIWearableDelegate" pc="268439554" symbol="onMenu"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="33" lineNum="12" parent="globals/AIWearableDelegate" pc="268439619" symbol="onMenu"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="34" lineNum="6" parent="globals/AIWearableDelegate" pc="268439621" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableDelegate.mc" id="34" lineNum="7" parent="globals/AIWearableDelegate" pc="268439623" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="11" parent="globals/AIWearableMenuDelegate" pc="268439636" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="12" parent="globals/AIWearableMenuDelegate" pc="268439639" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="13" parent="globals/AIWearableMenuDelegate" pc="268439650" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="14" parent="globals/AIWearableMenuDelegate" pc="268439670" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="15" parent="globals/AIWearableMenuDelegate" pc="268439679" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="16" parent="globals/AIWearableMenuDelegate" pc="268439684" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="18" parent="globals/AIWearableMenuDelegate" pc="268439705" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="20" parent="globals/AIWearableMenuDelegate" pc="268439726" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="21" parent="globals/AIWearableMenuDelegate" pc="268439737" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="22" parent="globals/AIWearableMenuDelegate" pc="268439757" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="23" parent="globals/AIWearableMenuDelegate" pc="268439775" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="35" lineNum="24" parent="globals/AIWearableMenuDelegate" pc="268439786" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="36" lineNum="7" parent="globals/AIWearableMenuDelegate" pc="268439808" symbol="initialize"/>
+        <entry filename="C:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\source\\AIWearableMenuDelegate.mc" id="36" lineNum="8" parent="globals/AIWearableMenuDelegate" pc="268439810" symbol="initialize"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="37" lineNum="14" parent="globals/Rez/Layouts" pc="268439823" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="37" lineNum="15" parent="globals/Rez/Layouts" pc="268439834" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="37" lineNum="17" parent="globals/Rez/Layouts" pc="268439843" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="37" lineNum="19" parent="globals/Rez/Layouts" pc="268439946" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="37" lineNum="20" parent="globals/Rez/Layouts" pc="268440030" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="37" lineNum="22" parent="globals/Rez/Layouts" pc="268440061" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="38" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268440076" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="39" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268440088" symbol="initialize"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="39" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268440090" symbol="initialize"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="39" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268440102" symbol="initialize"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="39" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268440147" symbol="initialize"/>
+        <entry filename="c:\\Users\\shaun\\OneDrive - Atlantic TU\\3RD YEAR\\Research Emerging technologie\\AIWearable\\bin\\gen\\006-B4426-00\\source\\Rez.mcgen" id="39" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268440192" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="8389346" symbol="text"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry field="true" id="27" symbol="lastRecordTime"/>
-        <entry field="true" id="28" symbol="readingInterval"/>
-        <entry id="33" method="true" symbol="MainLayout"/>
+        <entry field="true" id="31" symbol="lastRecordTime"/>
+        <entry field="true" id="33" symbol="readingInterval"/>
+        <entry id="40" method="true" symbol="MainLayout"/>
         <entry id="8" object="true" symbol="AIWearableDelegate"/>
-        <entry id="10" object="true" symbol="AIWearableTests"/>
+        <entry id="11" object="true" symbol="AIWearableTests"/>
         <entry id="8390424" module="true" symbol="Storage"/>
-        <entry id="24" method="true" symbol="testStorageMechanism"/>
+        <entry id="26" method="true" symbol="testStorageMechanism"/>
+        <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="29" method="true" symbol="recordReading"/>
-        <entry id="12" object="true" symbol="DataExporter"/>
-        <entry id="14" method="true" symbol="onUploadResponse"/>
-        <entry field="true" id="35" symbol="AppName"/>
+        <entry id="34" method="true" symbol="recordReading"/>
+        <entry id="13" object="true" symbol="DataExporter"/>
+        <entry id="15" method="true" symbol="onUploadResponse"/>
+        <entry field="true" id="28" symbol="currentMetricIndex"/>
+        <entry id="48" symbol="vo2MaxRunning"/>
+        <entry field="true" id="42" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry field="true" id="8389807" symbol="data"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
@@ -290,129 +342,151 @@
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="39" symbol="prompt"/>
-        <entry field="true" id="32" symbol="id_monkey"/>
-        <entry id="25" method="true" symbol="testTimestampFormat"/>
+        <entry field="true" id="46" symbol="prompt"/>
+        <entry field="true" id="39" symbol="id_monkey"/>
+        <entry id="27" method="true" symbol="testTimestampFormat"/>
+        <entry id="9" object="true" symbol="AIWearableInputDelegate"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="41" symbol="item_2"/>
-        <entry id="18" module="true" symbol="Menus"/>
+        <entry id="50" symbol="item_2"/>
+        <entry id="20" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="11" object="true" symbol="AIWearableView"/>
+        <entry id="12" object="true" symbol="AIWearableView"/>
+        <entry field="true" id="35" symbol="restingHr"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="26" symbol="hr"/>
+        <entry field="true" id="30" symbol="hr"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="19" method="true" symbol="runAllTests"/>
-        <entry id="21" method="true" symbol="testEmptyStorage"/>
+        <entry id="21" method="true" symbol="runAllTests"/>
+        <entry id="23" method="true" symbol="testEmptyStorage"/>
+        <entry field="true" id="37" symbol="vo2max"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="34" object="true" symbol="MainMenu"/>
+        <entry id="49" symbol="vo2Max"/>
+        <entry id="41" object="true" symbol="MainMenu"/>
         <entry id="8389844" symbol="responseType"/>
-        <entry id="23" method="true" symbol="testJSONExport"/>
-        <entry id="20" method="true" symbol="testDataRecording"/>
+        <entry id="25" method="true" symbol="testJSONExport"/>
+        <entry id="22" method="true" symbol="testDataRecording"/>
         <entry id="8388786" method="true" symbol="method"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry id="22" method="true" symbol="testInvalidHeartRate"/>
+        <entry id="24" method="true" symbol="testInvalidHeartRate"/>
         <entry id="7" object="true" symbol="AIWearableApp"/>
-        <entry id="16" method="true" symbol="uploadToServer"/>
+        <entry id="17" method="true" symbol="uploadToServer"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="31" symbol="LauncherIcon"/>
+        <entry field="true" id="38" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="36" symbol="export_data"/>
+        <entry field="true" id="43" symbol="export_data"/>
         <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="36" symbol="trainingStatus"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="13" method="true" symbol="exportTodayAsJSON"/>
+        <entry id="14" method="true" symbol="exportTodayAsJSON"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="15" method="true" symbol="saveToFile"/>
+        <entry id="16" method="true" symbol="saveToFile"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="29" method="true" symbol="drawMetricDisplay"/>
+        <entry field="true" id="18" symbol="view"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="17" module="true" symbol="Layouts"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="19" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry id="9" object="true" symbol="AIWearableMenuDelegate"/>
+        <entry id="10" object="true" symbol="AIWearableMenuDelegate"/>
+        <entry field="true" id="32" symbol="metrics"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="38" symbol="menu_label_2"/>
-        <entry field="true" id="37" symbol="menu_label_1"/>
-        <entry field="true" id="40" symbol="upload_data"/>
-        <entry field="true" id="30" symbol="stress"/>
+        <entry field="true" id="45" symbol="menu_label_2"/>
+        <entry field="true" id="44" symbol="menu_label_1"/>
+        <entry field="true" id="47" symbol="upload_data"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435678" name="json" stackId="1" startPc="268435552"/>
-        <entry endPc="268435678" name="now" stackId="2" startPc="268435552"/>
-        <entry endPc="268435678" name="info" stackId="3" startPc="268435552"/>
-        <entry endPc="268435678" name="backupKey" stackId="4" startPc="268435552"/>
-        <entry endPc="268435727" name="e" stackId="5" startPc="268435685"/>
-        <entry arg="true" endPc="268435906" name="serverUrl" stackId="1" startPc="268435734"/>
-        <entry endPc="268435851" name="json" stackId="2" startPc="268435737"/>
-        <entry endPc="268435851" name="body" stackId="3" startPc="268435737"/>
-        <entry endPc="268435851" name="headers" stackId="4" startPc="268435737"/>
-        <entry endPc="268435851" name="options" stackId="5" startPc="268435737"/>
-        <entry endPc="268435900" name="e" stackId="6" startPc="268435858"/>
-        <entry arg="true" endPc="268435960" name="responseCode" stackId="1" startPc="268435907"/>
-        <entry arg="true" endPc="268435960" name="responseData" stackId="2" startPc="268435907"/>
-        <entry endPc="268436325" name="now" stackId="1" startPc="268435964"/>
-        <entry endPc="268436325" name="info" stackId="2" startPc="268435964"/>
-        <entry endPc="268436325" name="dateKey" stackId="3" startPc="268435964"/>
-        <entry endPc="268436325" name="readings" stackId="4" startPc="268435964"/>
-        <entry endPc="268436325" name="json" stackId="5" startPc="268435964"/>
-        <entry endPc="268436299" name="i" stackId="6" startPc="268436148"/>
-        <entry endPc="268436289" name="reading" stackId="7" startPc="268436148"/>
-        <entry endPc="268436852" name="passedTests" stackId="1" startPc="268436329"/>
-        <entry endPc="268436852" name="totalTests" stackId="2" startPc="268436329"/>
-        <entry endPc="268436978" name="validHR1" stackId="1" startPc="268436857"/>
-        <entry endPc="268436978" name="validHR2" stackId="2" startPc="268436857"/>
-        <entry endPc="268436978" name="invalidHR1" stackId="3" startPc="268436857"/>
-        <entry endPc="268436978" name="invalidHR2" stackId="4" startPc="268436857"/>
-        <entry endPc="268437027" name="ex" stackId="5" startPc="268436985"/>
-        <entry endPc="268437226" name="exporter" stackId="1" startPc="268437037"/>
-        <entry endPc="268437226" name="json" stackId="2" startPc="268437037"/>
-        <entry endPc="268437275" name="ex" stackId="3" startPc="268437233"/>
-        <entry endPc="268437341" name="testKey" stackId="1" startPc="268437285"/>
-        <entry endPc="268437341" name="result" stackId="2" startPc="268437285"/>
-        <entry endPc="268437390" name="ex" stackId="3" startPc="268437348"/>
-        <entry endPc="268437531" name="testReading" stackId="1" startPc="268437400"/>
-        <entry endPc="268437580" name="ex" stackId="2" startPc="268437538"/>
-        <entry endPc="268437720" name="now" stackId="1" startPc="268437590"/>
-        <entry endPc="268437720" name="info" stackId="2" startPc="268437590"/>
-        <entry endPc="268437720" name="timestamp" stackId="3" startPc="268437590"/>
-        <entry endPc="268437769" name="ex" stackId="4" startPc="268437727"/>
-        <entry endPc="268437911" name="testKey" stackId="1" startPc="268437779"/>
-        <entry endPc="268437911" name="testData" stackId="2" startPc="268437779"/>
-        <entry endPc="268437911" name="retrieved" stackId="3" startPc="268437779"/>
-        <entry endPc="268437960" name="ex" stackId="4" startPc="268437918"/>
-        <entry endPc="268438136" name="info" stackId="1" startPc="268437970"/>
-        <entry endPc="268438136" name="dateKey" stackId="2" startPc="268437970"/>
-        <entry endPc="268438136" name="readings" stackId="3" startPc="268437970"/>
-        <entry endPc="268438136" name="tests" stackId="4" startPc="268437970"/>
-        <entry arg="true" endPc="268438425" name="dc" stackId="1" startPc="268438153"/>
-        <entry endPc="268438424" name="hrHistory" stackId="2" startPc="268438156"/>
-        <entry endPc="268438244" name="sample" stackId="3" startPc="268438198"/>
-        <entry endPc="268438424" name="now" stackId="4" startPc="268438156"/>
-        <entry arg="true" endPc="268438687" name="heartRate" stackId="1" startPc="268438426"/>
-        <entry arg="true" endPc="268438687" name="stressLevel" stackId="2" startPc="268438426"/>
-        <entry endPc="268438686" name="now" stackId="3" startPc="268438429"/>
-        <entry endPc="268438686" name="info" stackId="4" startPc="268438429"/>
-        <entry endPc="268438686" name="timestamp" stackId="5" startPc="268438429"/>
-        <entry endPc="268438686" name="reading" stackId="6" startPc="268438429"/>
-        <entry endPc="268438686" name="dateKey" stackId="7" startPc="268438429"/>
-        <entry endPc="268438686" name="dailyReadings" stackId="8" startPc="268438429"/>
-        <entry endPc="268438686" name="exporter" stackId="9" startPc="268438429"/>
-        <entry arg="true" endPc="268439013" name="item" stackId="1" startPc="268438842"/>
-        <entry endPc="268438928" name="exporter" stackId="2" startPc="268438856"/>
-        <entry endPc="268438928" name="success" stackId="3" startPc="268438856"/>
-        <entry endPc="268438977" name="exporter" stackId="4" startPc="268438943"/>
-        <entry arg="true" endPc="268439281" name="dc" stackId="1" startPc="268439029"/>
-        <entry endPc="268439281" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439040"/>
-        <entry endPc="268439281" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268439040"/>
-        <entry endPc="268439281" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268439040"/>
+        <entry endPc="268435733" name="json" stackId="1" startPc="268435607"/>
+        <entry endPc="268435733" name="now" stackId="2" startPc="268435607"/>
+        <entry endPc="268435733" name="info" stackId="3" startPc="268435607"/>
+        <entry endPc="268435733" name="backupKey" stackId="4" startPc="268435607"/>
+        <entry endPc="268435782" name="e" stackId="5" startPc="268435740"/>
+        <entry arg="true" endPc="268435961" name="serverUrl" stackId="1" startPc="268435789"/>
+        <entry endPc="268435906" name="json" stackId="2" startPc="268435792"/>
+        <entry endPc="268435906" name="body" stackId="3" startPc="268435792"/>
+        <entry endPc="268435906" name="headers" stackId="4" startPc="268435792"/>
+        <entry endPc="268435906" name="options" stackId="5" startPc="268435792"/>
+        <entry endPc="268435955" name="e" stackId="6" startPc="268435913"/>
+        <entry arg="true" endPc="268436015" name="responseCode" stackId="1" startPc="268435962"/>
+        <entry arg="true" endPc="268436015" name="responseData" stackId="2" startPc="268435962"/>
+        <entry endPc="268436430" name="now" stackId="1" startPc="268436019"/>
+        <entry endPc="268436430" name="info" stackId="2" startPc="268436019"/>
+        <entry endPc="268436430" name="dateKey" stackId="3" startPc="268436019"/>
+        <entry endPc="268436430" name="readings" stackId="4" startPc="268436019"/>
+        <entry endPc="268436430" name="json" stackId="5" startPc="268436019"/>
+        <entry endPc="268436404" name="i" stackId="6" startPc="268436203"/>
+        <entry endPc="268436394" name="reading" stackId="7" startPc="268436203"/>
+        <entry arg="true" endPc="268436454" name="viewRef" stackId="1" startPc="268436431"/>
+        <entry arg="true" endPc="268436623" name="keyEvent" stackId="1" startPc="268436455"/>
+        <entry endPc="268436623" name="key" stackId="2" startPc="268436458"/>
+        <entry endPc="268437150" name="passedTests" stackId="1" startPc="268436627"/>
+        <entry endPc="268437150" name="totalTests" stackId="2" startPc="268436627"/>
+        <entry endPc="268437276" name="validHR1" stackId="1" startPc="268437155"/>
+        <entry endPc="268437276" name="validHR2" stackId="2" startPc="268437155"/>
+        <entry endPc="268437276" name="invalidHR1" stackId="3" startPc="268437155"/>
+        <entry endPc="268437276" name="invalidHR2" stackId="4" startPc="268437155"/>
+        <entry endPc="268437325" name="ex" stackId="5" startPc="268437283"/>
+        <entry endPc="268437524" name="exporter" stackId="1" startPc="268437335"/>
+        <entry endPc="268437524" name="json" stackId="2" startPc="268437335"/>
+        <entry endPc="268437573" name="ex" stackId="3" startPc="268437531"/>
+        <entry endPc="268437639" name="testKey" stackId="1" startPc="268437583"/>
+        <entry endPc="268437639" name="result" stackId="2" startPc="268437583"/>
+        <entry endPc="268437688" name="ex" stackId="3" startPc="268437646"/>
+        <entry endPc="268437829" name="testReading" stackId="1" startPc="268437698"/>
+        <entry endPc="268437878" name="ex" stackId="2" startPc="268437836"/>
+        <entry endPc="268438018" name="now" stackId="1" startPc="268437888"/>
+        <entry endPc="268438018" name="info" stackId="2" startPc="268437888"/>
+        <entry endPc="268438018" name="timestamp" stackId="3" startPc="268437888"/>
+        <entry endPc="268438067" name="ex" stackId="4" startPc="268438025"/>
+        <entry endPc="268438209" name="testKey" stackId="1" startPc="268438077"/>
+        <entry endPc="268438209" name="testData" stackId="2" startPc="268438077"/>
+        <entry endPc="268438209" name="retrieved" stackId="3" startPc="268438077"/>
+        <entry endPc="268438258" name="ex" stackId="4" startPc="268438216"/>
+        <entry endPc="268438434" name="info" stackId="1" startPc="268438268"/>
+        <entry endPc="268438434" name="dateKey" stackId="2" startPc="268438268"/>
+        <entry endPc="268438434" name="readings" stackId="3" startPc="268438268"/>
+        <entry endPc="268438434" name="tests" stackId="4" startPc="268438268"/>
+        <entry arg="true" endPc="268438748" name="dc" stackId="1" startPc="268438436"/>
+        <entry endPc="268438747" name="metric" stackId="2" startPc="268438439"/>
+        <entry endPc="268438747" name="label" stackId="3" startPc="268438439"/>
+        <entry endPc="268438747" name="value" stackId="4" startPc="268438439"/>
+        <entry endPc="268438747" name="unit" stackId="5" startPc="268438439"/>
+        <entry endPc="268438747" name="valueStr" stackId="6" startPc="268438439"/>
+        <entry endPc="268438747" name="pageIndicator" stackId="7" startPc="268438439"/>
+        <entry arg="true" endPc="268439196" name="dc" stackId="1" startPc="268438764"/>
+        <entry endPc="268439195" name="hrHistory" stackId="2" startPc="268438767"/>
+        <entry endPc="268438855" name="sample" stackId="3" startPc="268438809"/>
+        <entry endPc="268439195" name="profile" stackId="4" startPc="268438767"/>
+        <entry endPc="268439195" name="now" stackId="5" startPc="268438767"/>
+        <entry arg="true" endPc="268439474" name="heartRate" stackId="1" startPc="268439197"/>
+        <entry arg="true" endPc="268439474" name="restingHeartRate" stackId="2" startPc="268439197"/>
+        <entry arg="true" endPc="268439474" name="vo2Max" stackId="3" startPc="268439197"/>
+        <entry arg="true" endPc="268439474" name="trainingStatus" stackId="4" startPc="268439197"/>
+        <entry endPc="268439473" name="now" stackId="5" startPc="268439200"/>
+        <entry endPc="268439473" name="info" stackId="6" startPc="268439200"/>
+        <entry endPc="268439473" name="timestamp" stackId="7" startPc="268439200"/>
+        <entry endPc="268439473" name="reading" stackId="8" startPc="268439200"/>
+        <entry endPc="268439473" name="dateKey" stackId="9" startPc="268439200"/>
+        <entry endPc="268439473" name="dailyReadings" stackId="10" startPc="268439200"/>
+        <entry endPc="268439473" name="exporter" stackId="11" startPc="268439200"/>
+        <entry endPc="268439533" name="view" stackId="1" startPc="268439481"/>
+        <entry arg="true" endPc="268439807" name="item" stackId="1" startPc="268439636"/>
+        <entry endPc="268439722" name="exporter" stackId="2" startPc="268439650"/>
+        <entry endPc="268439722" name="success" stackId="3" startPc="268439650"/>
+        <entry endPc="268439771" name="exporter" stackId="4" startPc="268439737"/>
+        <entry arg="true" endPc="268440075" name="dc" stackId="1" startPc="268439823"/>
+        <entry endPc="268440075" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268439834"/>
+        <entry endPc="268440075" name="rez_cmp_local_text_1193959466" stackId="3" startPc="268439834"/>
+        <entry endPc="268440075" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268439834"/>
     </localVars>
     <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4426-00"/>
     <annotations>
@@ -427,18 +501,19 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/DataExporter" offset="170" parentId="globals" symbolId="DataExporter" type="class"/>
-        <dataEntry label="globals/Rez" offset="250" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/AIWearableTests" offset="312" parentId="globals" symbolId="AIWearableTests" type="class"/>
-        <dataEntry label="globals/AIWearableView" offset="419" parentId="globals" symbolId="AIWearableView" type="class"/>
-        <dataEntry label="globals/AIWearableApp" offset="535" parentId="globals" symbolId="AIWearableApp" type="class"/>
-        <dataEntry label="globals/AIWearableDelegate" offset="606" parentId="globals" symbolId="AIWearableDelegate" type="class"/>
-        <dataEntry label="globals/AIWearableMenuDelegate" offset="659" parentId="globals" symbolId="AIWearableMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="712" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="756" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="791" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="826" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="906" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/DataExporter" offset="179" parentId="globals" symbolId="DataExporter" type="class"/>
+        <dataEntry label="globals/AIWearableInputDelegate" offset="259" parentId="globals" symbolId="AIWearableInputDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="321" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/AIWearableTests" offset="383" parentId="globals" symbolId="AIWearableTests" type="class"/>
+        <dataEntry label="globals/AIWearableView" offset="490" parentId="globals" symbolId="AIWearableView" type="class"/>
+        <dataEntry label="globals/AIWearableApp" offset="651" parentId="globals" symbolId="AIWearableApp" type="class"/>
+        <dataEntry label="globals/AIWearableDelegate" offset="722" parentId="globals" symbolId="AIWearableDelegate" type="class"/>
+        <dataEntry label="globals/AIWearableMenuDelegate" offset="775" parentId="globals" symbolId="AIWearableMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="828" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="872" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="907" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="942" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1022" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="DataExporter">
@@ -447,32 +522,35 @@
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
+        <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="AIWearableInputDelegate" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="AIWearableTests">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="AIWearableView" startPc="268435501">
+        <functionEntry accessMode="public" endPc="268435567" name="&lt;init&gt;" parent="AIWearableView" startPc="268435513">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="AIWearableApp" startPc="268435513">
+        <functionEntry accessMode="public" endPc="268435579" name="&lt;init&gt;" parent="AIWearableApp" startPc="268435568">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="AIWearableDelegate" startPc="268435525">
+        <functionEntry accessMode="public" endPc="268435591" name="&lt;init&gt;" parent="AIWearableDelegate" startPc="268435580">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435548" name="&lt;init&gt;" parent="AIWearableMenuDelegate" startPc="268435537">
+        <functionEntry accessMode="public" endPc="268435603" name="&lt;init&gt;" parent="AIWearableMenuDelegate" startPc="268435592">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435733" name="saveToFile" parent="DataExporter" startPc="268435549">
+        <functionEntry accessMode="public" endPc="268435788" name="saveToFile" parent="DataExporter" startPc="268435604">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435906" name="uploadToServer" parent="DataExporter" startPc="268435734">
+        <functionEntry accessMode="public" endPc="268435961" name="uploadToServer" parent="DataExporter" startPc="268435789">
             <param id="serverUrl"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435960" name="onUploadResponse" parent="DataExporter" startPc="268435907">
+        <functionEntry accessMode="public" endPc="268436015" name="onUploadResponse" parent="DataExporter" startPc="268435962">
             <param id="responseCode"/>
             <param id="responseData"/>
             <documentation/>
@@ -480,7 +558,15 @@
         <functionEntry accessMode="public" name="initialize" parent="DataExporter">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436325" name="exportTodayAsJSON" parent="DataExporter" startPc="268435961">
+        <functionEntry accessMode="public" endPc="268436430" name="exportTodayAsJSON" parent="DataExporter" startPc="268436016">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436454" name="initialize" parent="AIWearableInputDelegate" startPc="268436431">
+            <param id="viewRef"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436623" name="onKey" parent="AIWearableInputDelegate" startPc="268436455">
+            <param id="keyEvent"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -495,83 +581,89 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436853" name="runAllTests" parent="AIWearableTests" startPc="268436326">
+        <functionEntry accessMode="public" endPc="268437151" name="runAllTests" parent="AIWearableTests" startPc="268436624">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437033" name="testInvalidHeartRate" parent="AIWearableTests" startPc="268436854">
+        <functionEntry accessMode="public" endPc="268437331" name="testInvalidHeartRate" parent="AIWearableTests" startPc="268437152">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437281" name="testJSONExport" parent="AIWearableTests" startPc="268437034">
+        <functionEntry accessMode="public" endPc="268437579" name="testJSONExport" parent="AIWearableTests" startPc="268437332">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437396" name="testEmptyStorage" parent="AIWearableTests" startPc="268437282">
+        <functionEntry accessMode="public" endPc="268437694" name="testEmptyStorage" parent="AIWearableTests" startPc="268437580">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437586" name="testDataRecording" parent="AIWearableTests" startPc="268437397">
+        <functionEntry accessMode="public" endPc="268437884" name="testDataRecording" parent="AIWearableTests" startPc="268437695">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437775" name="testTimestampFormat" parent="AIWearableTests" startPc="268437587">
+        <functionEntry accessMode="public" endPc="268438073" name="testTimestampFormat" parent="AIWearableTests" startPc="268437885">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="AIWearableTests">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437966" name="testStorageMechanism" parent="AIWearableTests" startPc="268437776">
+        <functionEntry accessMode="public" endPc="268438264" name="testStorageMechanism" parent="AIWearableTests" startPc="268438074">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438137" name="onShow" parent="AIWearableView" startPc="268437967">
+        <functionEntry accessMode="public" endPc="268438435" name="onShow" parent="AIWearableView" startPc="268438265">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438152" name="initialize" parent="AIWearableView" startPc="268438138">
+        <functionEntry accessMode="public" endPc="268438748" name="drawMetricDisplay" parent="AIWearableView" startPc="268438436">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438763" name="initialize" parent="AIWearableView" startPc="268438749">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="AIWearableView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438425" name="onUpdate" parent="AIWearableView" startPc="268438153">
+        <functionEntry accessMode="public" endPc="268439196" name="onUpdate" parent="AIWearableView" startPc="268438764">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438687" name="recordReading" parent="AIWearableView" startPc="268438426">
+        <functionEntry accessMode="public" endPc="268439474" name="recordReading" parent="AIWearableView" startPc="268439197">
             <param id="heartRate"/>
-            <param id="stressLevel"/>
+            <param id="restingHeartRate"/>
+            <param id="vo2Max"/>
+            <param id="trainingStatus"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438690" name="onStart" parent="AIWearableApp" startPc="268438688">
+        <functionEntry accessMode="public" endPc="268439477" name="onStart" parent="AIWearableApp" startPc="268439475">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438739" name="getInitialView" parent="AIWearableApp" startPc="268438691">
+        <functionEntry accessMode="public" endPc="268439533" name="getInitialView" parent="AIWearableApp" startPc="268439478">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438754" name="initialize" parent="AIWearableApp" startPc="268438740">
+        <functionEntry accessMode="public" endPc="268439548" name="initialize" parent="AIWearableApp" startPc="268439534">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438757" name="onStop" parent="AIWearableApp" startPc="268438755">
+        <functionEntry accessMode="public" endPc="268439551" name="onStop" parent="AIWearableApp" startPc="268439549">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438826" name="onMenu" parent="AIWearableDelegate" startPc="268438758">
+        <functionEntry accessMode="public" endPc="268439620" name="onMenu" parent="AIWearableDelegate" startPc="268439552">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438841" name="initialize" parent="AIWearableDelegate" startPc="268438827">
+        <functionEntry accessMode="public" endPc="268439635" name="initialize" parent="AIWearableDelegate" startPc="268439621">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439013" name="onMenuItem" parent="AIWearableMenuDelegate" startPc="268438842">
+        <functionEntry accessMode="public" endPc="268439807" name="onMenuItem" parent="AIWearableMenuDelegate" startPc="268439636">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439028" name="initialize" parent="AIWearableMenuDelegate" startPc="268439014">
+        <functionEntry accessMode="public" endPc="268439822" name="initialize" parent="AIWearableMenuDelegate" startPc="268439808">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439281" name="MainLayout" parent="Layouts" startPc="268439029">
+        <functionEntry accessMode="public" endPc="268440075" name="MainLayout" parent="Layouts" startPc="268439823">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439293" name="&lt;init&gt;" parent="MainMenu" startPc="268439282">
+        <functionEntry accessMode="public" endPc="268440087" name="&lt;init&gt;" parent="MainMenu" startPc="268440076">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439443" name="initialize" parent="MainMenu" startPc="268439294">
+        <functionEntry accessMode="public" endPc="268440237" name="initialize" parent="MainMenu" startPc="268440088">
             <documentation/>
         </functionEntry>
     </functions>

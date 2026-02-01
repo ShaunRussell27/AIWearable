@@ -19,7 +19,8 @@ class AIWearableApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new AIWearableView(), new AIWearableDelegate() ];
+        var view = new AIWearableView();
+        return [ view, new AIWearableInputDelegate(view) ];
     }
 
 }

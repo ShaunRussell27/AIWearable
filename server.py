@@ -31,7 +31,9 @@ def receive_health_data():
             {
                 "timestamp": "10:30:45",
                 "heartRate": 75,
-                "stress": 0
+                "restingHeartRate": 60,
+                "vo2Max": 45.5,
+                "trainingStatus": "Active"
             }
         ]
     }
@@ -55,7 +57,9 @@ def receive_health_data():
                 "date": data.get('date'),
                 "timestamp": reading.get('timestamp'),
                 "heartRate": reading.get('heartRate'),
-                "stress": reading.get('stress')
+                "restingHeartRate": reading.get('restingHeartRate'),
+                "vo2Max": reading.get('vo2Max'),
+                "trainingStatus": reading.get('trainingStatus')
             }
             all_readings.append(reading_entry)
         
@@ -177,8 +181,8 @@ def get_data_stats():
         return jsonify({"status": "error", "message": str(e)}), 400
 
 
-def startup_message():
-    """Print startup info"""
+if __name__ == '__main__':
+    # Local development only
     print("\n" + "="*50)
     print("AIWearable Server Starting")
     print("="*50)
@@ -191,9 +195,4 @@ def startup_message():
     print("  GET  /api/data/latest    - Get latest N readings")
     print("  GET  /api/data/stats     - Get data statistics")
     print("="*50 + "\n")
-
-startup_message()
-
-if __name__ == '__main__':
-    # Local development only
     app.run(host='0.0.0.0', port=5000, debug=True)

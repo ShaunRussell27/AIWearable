@@ -19,9 +19,9 @@ class DataExporter {
     }
     [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 10; @symbol_functiondef = [exportTodayAsJSON,10,13,30]; @symbol_return<0> = [Lang,10,36,40]; @symbol_return<1> = [String,10,41,47]; ]
     function exportTodayAsJSON() as Lang.String {
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_start:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_start:
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 12 8 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_stop" ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_stop" ]
         %now.1 = local;
         symbol [ now %now.1 12 12 15 ];
         symbol [ Time %tmp.1 12 18 22 ];
@@ -32,7 +32,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         lputv %now.1 %tmp.3;
         symbol [ now %now.1 12 12 15 ];
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 13 8 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_stop" ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_stop" ]
         %info.2 = local;
         symbol [ info %info.2 13 12 16 ];
         symbol [ Time %tmp.4 13 19 23 ];
@@ -51,7 +51,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         lputv %info.2 %tmp.10;
         symbol [ info %info.2 13 12 16 ];
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 15 8 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_stop" ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_stop" ]
         %dateKey.3 = local;
         symbol [ dateKey %dateKey.3 15 12 19 ];
         symbol [ Lang %tmp.11 15 22 26 ];
@@ -82,7 +82,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         lputv %dateKey.3 %tmp.27;
         symbol [ dateKey %dateKey.3 15 12 19 ];
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 17 8 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_stop" ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_stop" ]
         %readings.4 = local;
         symbol [ readings %readings.4 17 12 20 ];
         symbol [ Storage %tmp.28 17 23 30 ];
@@ -100,7 +100,7 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         lputv %readings.4 %tmp.32;
         symbol [ readings %readings.4 17 12 20 ];
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 19 8 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_stop" ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_stop" ]
         %json.5 = local;
         symbol [ json %json.5 19 12 16 ];
         %tmp.33 = "{\n";
@@ -142,24 +142,24 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         lputv %json.5 %tmp.54;
         symbol [ json %json.5 21 8 12 ];
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 23 8 ]
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_34_8_if_stmt:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_36_8_if_stmt:
         %tmp.55 = lgetv %readings.4;
         symbol [ readings %tmp.55 23 12 20 ];
         %tmp.56 = null;
         %tmp.57 = ne %tmp.55 %tmp.56;
-        bf %tmp.57 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_34_8_if_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_34_8_if_true:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_30_34_8_start:
+        bf %tmp.57 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_36_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_36_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_30_36_8_start:
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 24 12 ]
-        for @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_test @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_incr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_init:
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_begin" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_end" ]
+        for @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_test @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_incr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_init:
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_begin" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_end" ]
         %i.6 = local;
         symbol [ i %i.6 24 21 22 ];
         %tmp.58 = 0;
         lputv %i.6 %tmp.58;
         symbol [ i %i.6 24 21 22 ];
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_test:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_test:
         %tmp.59 = lgetv %i.6;
         symbol [ i %tmp.59 24 28 29 ];
         %tmp.60 = lgetv %readings.4;
@@ -169,11 +169,11 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
         %tmp.62 = getv function %tmp.61 :size;
         %tmp.63 = invoke %tmp.61 %tmp.62();
         %tmp.64 = lt %tmp.59 %tmp.63;
-        bf %tmp.64 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_begin:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_33_12_start:
+        bf %tmp.64 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_begin:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_35_12_start:
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 25 16 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_33_12_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_33_12_stop" ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_35_12_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_35_12_stop" ]
         %reading.7 = local;
         symbol [ reading %reading.7 25 20 27 ];
         %tmp.65 = lgetv %readings.4;
@@ -222,13 +222,13 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 29 16 ]
         %tmp.90 = lgetv %json.5;
         symbol [ json %tmp.90 29 16 20 ];
-        %tmp.91 = "      \"stress\": ";
+        %tmp.91 = "      \"restingHeartRate\": ";
         %tmp.92 = lgetv %reading.7;
-        symbol [ reading %tmp.92 29 47 54 ];
-        %tmp.93 = "stress";
+        symbol [ reading %tmp.92 29 57 64 ];
+        %tmp.93 = "restingHeartRate";
         %tmp.94 = agetv %tmp.92 %tmp.93;
         %tmp.95 = add %tmp.91 %tmp.94;
-        %tmp.96 = "\n";
+        %tmp.96 = ",\n";
         %tmp.97 = add %tmp.95 %tmp.96;
         %tmp.98 = add %tmp.90 %tmp.97;
         lputv %json.5 %tmp.98;
@@ -236,416 +236,444 @@ C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIW
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 30 16 ]
         %tmp.99 = lgetv %json.5;
         symbol [ json %tmp.99 30 16 20 ];
-        %tmp.100 = "    }";
-        %tmp.101 = add %tmp.99 %tmp.100;
-        lputv %json.5 %tmp.101;
+        %tmp.100 = "      \"vo2Max\": ";
+        %tmp.101 = lgetv %reading.7;
+        symbol [ reading %tmp.101 30 47 54 ];
+        %tmp.102 = "vo2Max";
+        %tmp.103 = agetv %tmp.101 %tmp.102;
+        %tmp.104 = add %tmp.100 %tmp.103;
+        %tmp.105 = ",\n";
+        %tmp.106 = add %tmp.104 %tmp.105;
+        %tmp.107 = add %tmp.99 %tmp.106;
+        lputv %json.5 %tmp.107;
         symbol [ json %json.5 30 16 20 ];
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 31 16 ]
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_16_31_60_if_stmt:
-        %tmp.102 = lgetv %i.6;
-        symbol [ i %tmp.102 31 20 21 ];
-        %tmp.103 = lgetv %readings.4;
-        symbol [ readings %tmp.103 31 24 32 ];
-        %tmp.104 = as %tmp.103 { (!Null) };
-        symbol [ size %tmp.105 31 33 37 ];
-        %tmp.105 = getv function %tmp.104 :size;
-        %tmp.106 = invoke %tmp.104 %tmp.105();
-        %tmp.107 = 1;
-        %tmp.108 = sub %tmp.106 %tmp.107;
-        %tmp.109 = lt %tmp.102 %tmp.108;
-        bf %tmp.109 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_16_31_60_if_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_16_31_60_if_true:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_45_31_60_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 31 47 ]
-        %tmp.110 = lgetv %json.5;
-        symbol [ json %tmp.110 31 47 51 ];
-        %tmp.111 = ",";
-        %tmp.112 = add %tmp.110 %tmp.111;
-        lputv %json.5 %tmp.112;
-        symbol [ json %json.5 31 47 51 ];
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_45_31_60_stop:
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_16_31_60_if_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_31_16_31_60_if_end:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 32 16 ]
-        %tmp.113 = lgetv %json.5;
-        symbol [ json %tmp.113 32 16 20 ];
-        %tmp.114 = "\n";
+        %tmp.108 = lgetv %json.5;
+        symbol [ json %tmp.108 31 16 20 ];
+        %tmp.109 = "      \"trainingStatus\": \"";
+        %tmp.110 = lgetv %reading.7;
+        symbol [ reading %tmp.110 31 57 64 ];
+        %tmp.111 = "trainingStatus";
+        %tmp.112 = agetv %tmp.110 %tmp.111;
+        %tmp.113 = add %tmp.109 %tmp.112;
+        %tmp.114 = "\"\n";
         %tmp.115 = add %tmp.113 %tmp.114;
-        lputv %json.5 %tmp.115;
+        %tmp.116 = add %tmp.108 %tmp.115;
+        lputv %json.5 %tmp.116;
+        symbol [ json %json.5 31 16 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 32 16 ]
+        %tmp.117 = lgetv %json.5;
+        symbol [ json %tmp.117 32 16 20 ];
+        %tmp.118 = "    }";
+        %tmp.119 = add %tmp.117 %tmp.118;
+        lputv %json.5 %tmp.119;
         symbol [ json %json.5 32 16 20 ];
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_33_12_stop:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_incr:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 33 16 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_16_33_60_if_stmt:
+        %tmp.120 = lgetv %i.6;
+        symbol [ i %tmp.120 33 20 21 ];
+        %tmp.121 = lgetv %readings.4;
+        symbol [ readings %tmp.121 33 24 32 ];
+        %tmp.122 = as %tmp.121 { (!Null) };
+        symbol [ size %tmp.123 33 33 37 ];
+        %tmp.123 = getv function %tmp.122 :size;
+        %tmp.124 = invoke %tmp.122 %tmp.123();
+        %tmp.125 = 1;
+        %tmp.126 = sub %tmp.124 %tmp.125;
+        %tmp.127 = lt %tmp.120 %tmp.126;
+        bf %tmp.127 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_16_33_60_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_16_33_60_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_45_33_60_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 33 47 ]
+        %tmp.128 = lgetv %json.5;
+        symbol [ json %tmp.128 33 47 51 ];
+        %tmp.129 = ",";
+        %tmp.130 = add %tmp.128 %tmp.129;
+        lputv %json.5 %tmp.130;
+        symbol [ json %json.5 33 47 51 ];
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_45_33_60_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_16_33_60_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_33_16_33_60_if_end:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 34 16 ]
+        %tmp.131 = lgetv %json.5;
+        symbol [ json %tmp.131 34 16 20 ];
+        %tmp.132 = "\n";
+        %tmp.133 = add %tmp.131 %tmp.132;
+        lputv %json.5 %tmp.133;
+        symbol [ json %json.5 34 16 20 ];
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_54_35_12_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_incr:
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 24 ]
-        %tmp.118 = lgetv %i.6;
-        symbol [ i %tmp.118 24 49 50 ];
-        %tmp.119 = add %tmp.118 1;
-        lputv %i.6 %tmp.119;
+        %tmp.136 = lgetv %i.6;
+        symbol [ i %tmp.136 24 49 50 ];
+        %tmp.137 = add %tmp.136 1;
+        lputv %i.6 %tmp.137;
         symbol [ i %i.6 24 49 50 ];
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_test;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_33_12_for_end:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_30_34_8_stop:
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_34_8_if_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_34_8_if_end:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 36 8 ]
-        %tmp.120 = lgetv %json.5;
-        symbol [ json %tmp.120 36 8 12 ];
-        %tmp.121 = "  ]\n";
-        %tmp.122 = add %tmp.120 %tmp.121;
-        lputv %json.5 %tmp.122;
-        symbol [ json %json.5 36 8 12 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 37 8 ]
-        %tmp.123 = lgetv %json.5;
-        symbol [ json %tmp.123 37 8 12 ];
-        %tmp.124 = "}\n";
-        %tmp.125 = add %tmp.123 %tmp.124;
-        lputv %json.5 %tmp.125;
-        symbol [ json %json.5 37 8 12 ];
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_test;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_24_12_35_12_for_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_30_36_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_36_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_23_8_36_8_if_end:
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 38 8 ]
-        %tmp.126 = lgetv %json.5;
-        symbol [ json %tmp.126 38 15 19 ];
-        ret %tmp.126;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_39_4_stop:
+        %tmp.138 = lgetv %json.5;
+        symbol [ json %tmp.138 38 8 12 ];
+        %tmp.139 = "  ]\n";
+        %tmp.140 = add %tmp.138 %tmp.139;
+        lputv %json.5 %tmp.140;
+        symbol [ json %json.5 38 8 12 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 39 8 ]
+        %tmp.141 = lgetv %json.5;
+        symbol [ json %tmp.141 39 8 12 ];
+        %tmp.142 = "}\n";
+        %tmp.143 = add %tmp.141 %tmp.142;
+        lputv %json.5 %tmp.143;
+        symbol [ json %json.5 39 8 12 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 40 8 ]
+        %tmp.144 = lgetv %json.5;
+        symbol [ json %tmp.144 40 15 19 ];
+        ret %tmp.144;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_10_48_41_4_stop:
     }
-    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 41; @symbol_functiondef = [saveToFile,41,13,23]; @symbol_return<0> = [Lang,41,29,33]; @symbol_return<1> = [Boolean,41,34,41]; ]
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 43; @symbol_functiondef = [saveToFile,43,13,23]; @symbol_return<0> = [Lang,43,29,33]; @symbol_return<1> = [Boolean,43,34,41]; ]
     function saveToFile() as Lang.Boolean {
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_41_42_58_4_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 42 8 ]
-        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_beginTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_endTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_beginTry:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 43 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_stop" ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_43_42_60_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 44 8 ]
+        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_beginTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_endTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_beginTry:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 45 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_stop" ]
         %json.1 = local;
-        symbol [ json %json.1 43 16 20 ];
+        symbol [ json %json.1 45 16 20 ];
         %tmp.1 = self;
-        symbol [ exportTodayAsJSON %tmp.2 43 23 40 ];
+        symbol [ exportTodayAsJSON %tmp.2 45 23 40 ];
         %tmp.2 = getv function %tmp.1 :exportTodayAsJSON;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %json.1 %tmp.3;
-        symbol [ json %json.1 43 16 20 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 44 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_stop" ]
+        symbol [ json %json.1 45 16 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 46 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_stop" ]
         %now.2 = local;
-        symbol [ now %now.2 44 16 19 ];
-        symbol [ Time %tmp.4 44 22 26 ];
+        symbol [ now %now.2 46 16 19 ];
+        symbol [ Time %tmp.4 46 22 26 ];
         %tmp.4 = getm $.Toybox.Time;
-        symbol [ now %tmp.5 44 27 30 ];
+        symbol [ now %tmp.5 46 27 30 ];
         %tmp.5 = getv function %tmp.4 :now;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %now.2 %tmp.6;
-        symbol [ now %now.2 44 16 19 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 45 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_stop" ]
+        symbol [ now %now.2 46 16 19 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 47 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_stop" ]
         %info.3 = local;
-        symbol [ info %info.3 45 16 20 ];
-        symbol [ Time %tmp.7 45 23 27 ];
+        symbol [ info %info.3 47 16 20 ];
+        symbol [ Time %tmp.7 47 23 27 ];
         %tmp.7 = getm $.Toybox.Time;
-        symbol [ Gregorian %tmp.8 45 28 37 ];
+        symbol [ Gregorian %tmp.8 47 28 37 ];
         %tmp.8 = getv %tmp.7 :Gregorian;
-        symbol [ info %tmp.9 45 38 42 ];
+        symbol [ info %tmp.9 47 38 42 ];
         %tmp.9 = getv function %tmp.8 :info;
         %tmp.10 = lgetv %now.2;
-        symbol [ now %tmp.10 45 43 46 ];
-        symbol [ Time %tmp.11 45 48 52 ];
+        symbol [ now %tmp.10 47 43 46 ];
+        symbol [ Time %tmp.11 47 48 52 ];
         %tmp.11 = getm $.Toybox.Time;
-        symbol [ FORMAT_SHORT %tmp.12 45 53 65 ];
+        symbol [ FORMAT_SHORT %tmp.12 47 53 65 ];
         %tmp.12 = getv %tmp.11 :FORMAT_SHORT;
         %tmp.13 = invoke %tmp.8 %tmp.9(%tmp.10, %tmp.12);
         lputv %info.3 %tmp.13;
-        symbol [ info %info.3 45 16 20 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 46 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_stop" ]
+        symbol [ info %info.3 47 16 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 48 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_stop" ]
         %backupKey.4 = local;
-        symbol [ backupKey %backupKey.4 46 16 25 ];
-        symbol [ Lang %tmp.14 46 28 32 ];
+        symbol [ backupKey %backupKey.4 48 16 25 ];
+        symbol [ Lang %tmp.14 48 28 32 ];
         %tmp.14 = getm $.Toybox.Lang;
-        symbol [ format %tmp.15 46 33 39 ];
+        symbol [ format %tmp.15 48 33 39 ];
         %tmp.15 = getv function %tmp.14 :format;
         %tmp.16 = "backup_$1$_$2$_$3$";
         %tmp.17 = newa 3;
         %tmp.18 = lgetv %info.3;
-        symbol [ info %tmp.18 47 17 21 ];
-        symbol [ year %tmp.19 47 22 26 ];
+        symbol [ info %tmp.18 49 17 21 ];
+        symbol [ year %tmp.19 49 22 26 ];
         %tmp.19 = getv %tmp.18 :year;
         %tmp.20 = dup %tmp.17;
         %tmp.21 = aputv %tmp.20 0 %tmp.19;
         %tmp.22 = lgetv %info.3;
-        symbol [ info %tmp.22 47 28 32 ];
-        symbol [ month %tmp.23 47 33 38 ];
+        symbol [ info %tmp.22 49 28 32 ];
+        symbol [ month %tmp.23 49 33 38 ];
         %tmp.23 = getv %tmp.22 :month;
         %tmp.24 = dup %tmp.21;
         %tmp.25 = aputv %tmp.24 1 %tmp.23;
         %tmp.26 = lgetv %info.3;
-        symbol [ info %tmp.26 47 40 44 ];
-        symbol [ day %tmp.27 47 45 48 ];
+        symbol [ info %tmp.26 49 40 44 ];
+        symbol [ day %tmp.27 49 45 48 ];
         %tmp.27 = getv %tmp.26 :day;
         %tmp.28 = dup %tmp.25;
         %tmp.29 = aputv %tmp.28 2 %tmp.27;
         %tmp.30 = invoke %tmp.14 %tmp.15(%tmp.16, %tmp.29);
         lputv %backupKey.4 %tmp.30;
-        symbol [ backupKey %backupKey.4 46 16 25 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 50 12 ]
-        symbol [ Storage %tmp.31 50 12 19 ];
+        symbol [ backupKey %backupKey.4 48 16 25 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 52 12 ]
+        symbol [ Storage %tmp.31 52 12 19 ];
         %tmp.31 = getm $.Toybox.Application.Storage;
-        symbol [ setValue %tmp.32 50 20 28 ];
+        symbol [ setValue %tmp.32 52 20 28 ];
         %tmp.32 = getv function %tmp.31 :setValue;
         %tmp.33 = lgetv %backupKey.4;
-        symbol [ backupKey %tmp.33 50 29 38 ];
+        symbol [ backupKey %tmp.33 52 29 38 ];
         %tmp.34 = lgetv %json.1;
-        symbol [ json %tmp.34 50 40 44 ];
+        symbol [ json %tmp.34 52 40 44 ];
         invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34);
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 52 12 ]
-        symbol [ Sys %tmp.35 52 12 15 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 54 12 ]
+        symbol [ Sys %tmp.35 54 12 15 ];
         %tmp.35 = getm $.Toybox.System;
-        symbol [ println %tmp.36 52 16 23 ];
+        symbol [ println %tmp.36 54 16 23 ];
         %tmp.36 = getv function %tmp.35 :println;
-        %tmp.37 = "? Data saved to device storage";
+        %tmp.37 = "✓ Data saved to device storage";
         invoke %tmp.35 %tmp.36(%tmp.37);
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 53 12 ]
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 55 12 ]
         %tmp.38 = true;
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
         ret %tmp.38;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_12_54_8_stop:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_endTry:
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_catch:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_12_56_8_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_endTry:
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_catch:
         %tmp.39 = exception;
         push %tmp.39;
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 54 10 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_catch" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_54_10_57_8_end" ]
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 56 10 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_catch" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_56_10_59_8_end" ]
         %e.5 = local;
-        symbol [ e %e.5 54 17 18 ];
+        symbol [ e %e.5 56 17 18 ];
         %tmp.40 = dup %tmp.39;
         lputv %e.5 %tmp.40;
-        symbol [ e %e.5 54 17 18 ];
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_54_20_57_8_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 55 12 ]
-        symbol [ Sys %tmp.41 55 12 15 ];
+        symbol [ e %e.5 56 17 18 ];
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_56_20_59_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 57 12 ]
+        symbol [ Sys %tmp.41 57 12 15 ];
         %tmp.41 = getm $.Toybox.System;
-        symbol [ println %tmp.42 55 16 23 ];
+        symbol [ println %tmp.42 57 16 23 ];
         %tmp.42 = getv function %tmp.41 :println;
-        %tmp.43 = "? Export failed: ";
+        %tmp.43 = "✗ Export failed: ";
         %tmp.44 = lgetv %e.5;
-        symbol [ e %tmp.44 55 46 47 ];
-        symbol [ getErrorMessage %tmp.45 55 48 63 ];
+        symbol [ e %tmp.44 57 46 47 ];
+        symbol [ getErrorMessage %tmp.45 57 48 63 ];
         %tmp.45 = getv function %tmp.44 :getErrorMessage;
         %tmp.46 = invoke %tmp.44 %tmp.45();
         %tmp.47 = add %tmp.43 %tmp.46;
         invoke %tmp.41 %tmp.42(%tmp.47);
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 56 12 ]
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 58 12 ]
         pop;
         %tmp.48 = false;
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
         ret %tmp.48;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_54_20_57_8_stop:
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_56_20_59_8_stop:
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
         pop;
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_54_10_57_8_end:
-        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_54_10_57_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_54_10_57_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally;
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_56_10_59_8_end:
+        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_56_10_59_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_56_10_59_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally;
         throw %tmp.39;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_finally:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_finally:
         jsrret;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_42_8_57_8_end:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_41_42_58_4_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_44_8_59_8_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_43_42_60_4_stop:
     }
-    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 60; @symbol_functiondef = [uploadToServer,60,13,27]; @symbol_param<0> = [serverUrl,60,28,37]; @symbol_param<0>_type<0> = [Lang,60,41,45]; @symbol_param<0>_type<1> = [String,60,46,52]; @symbol_return<0> = [Lang,60,57,61]; @symbol_return<1> = [Boolean,60,62,69]; ]
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 62; @symbol_functiondef = [uploadToServer,62,13,27]; @symbol_param<0> = [serverUrl,62,28,37]; @symbol_param<0>_type<0> = [Lang,62,41,45]; @symbol_param<0>_type<1> = [String,62,46,52]; @symbol_return<0> = [Lang,62,57,61]; @symbol_return<1> = [Boolean,62,62,69]; ]
     function uploadToServer(serverUrl as Lang.String) as Lang.Boolean {
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_60_70_85_4_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 61 8 ]
-        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_beginTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_endTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_beginTry:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 62 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_stop" ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_62_70_87_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 63 8 ]
+        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_beginTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_endTry @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_beginTry:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 64 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_stop" ]
         %json.1 = local;
-        symbol [ json %json.1 62 16 20 ];
+        symbol [ json %json.1 64 16 20 ];
         %tmp.1 = self;
-        symbol [ exportTodayAsJSON %tmp.2 62 23 40 ];
+        symbol [ exportTodayAsJSON %tmp.2 64 23 40 ];
         %tmp.2 = getv function %tmp.1 :exportTodayAsJSON;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %json.1 %tmp.3;
-        symbol [ json %json.1 62 16 20 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 64 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_stop" ]
+        symbol [ json %json.1 64 16 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 66 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_stop" ]
         %body.2 = local;
-        symbol [ body %body.2 64 16 20 ];
+        symbol [ body %body.2 66 16 20 ];
         %tmp.4 = newd Lang.Dictionary<Lang.Object, Lang.Object> 1;
-        symbol [ Lang %tmp.4 66 17 21 ];
-        symbol [ Dictionary %tmp.4 66 22 32 ];
-        symbol [ Lang %tmp.4 66 33 37 ];
-        symbol [ Object %tmp.4 66 38 44 ];
-        symbol [ Lang %tmp.4 66 46 50 ];
-        symbol [ Object %tmp.4 66 51 57 ];
+        symbol [ Lang %tmp.4 68 17 21 ];
+        symbol [ Dictionary %tmp.4 68 22 32 ];
+        symbol [ Lang %tmp.4 68 33 37 ];
+        symbol [ Object %tmp.4 68 38 44 ];
+        symbol [ Lang %tmp.4 68 46 50 ];
+        symbol [ Object %tmp.4 68 51 57 ];
         %tmp.6 = const :data;
-        symbol [ data %tmp.6 65 17 21 const ];
+        symbol [ data %tmp.6 67 17 21 const ];
         %tmp.7 = lgetv %json.1;
-        symbol [ json %tmp.7 65 25 29 ];
+        symbol [ json %tmp.7 67 25 29 ];
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
         lputv %body.2 %tmp.9;
-        symbol [ body %body.2 64 16 20 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 68 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_stop" ]
+        symbol [ body %body.2 66 16 20 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 70 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_stop" ]
         %headers.3 = local;
-        symbol [ headers %headers.3 68 16 23 ];
+        symbol [ headers %headers.3 70 16 23 ];
         %tmp.10 = newd Lang.Dictionary<Lang.String, Lang.String> 1;
-        symbol [ Lang %tmp.10 70 17 21 ];
-        symbol [ Dictionary %tmp.10 70 22 32 ];
-        symbol [ Lang %tmp.10 70 33 37 ];
-        symbol [ String %tmp.10 70 38 44 ];
-        symbol [ Lang %tmp.10 70 46 50 ];
-        symbol [ String %tmp.10 70 51 57 ];
+        symbol [ Lang %tmp.10 72 17 21 ];
+        symbol [ Dictionary %tmp.10 72 22 32 ];
+        symbol [ Lang %tmp.10 72 33 37 ];
+        symbol [ String %tmp.10 72 38 44 ];
+        symbol [ Lang %tmp.10 72 46 50 ];
+        symbol [ String %tmp.10 72 51 57 ];
         %tmp.11 = "Content-Type";
         %tmp.12 = "application/json";
         %tmp.13 = dup %tmp.10;
         %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
         lputv %headers.3 %tmp.14;
-        symbol [ headers %headers.3 68 16 23 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 72 12 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_stop" ]
+        symbol [ headers %headers.3 70 16 23 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 74 12 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_start" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_stop" ]
         %options.4 = local;
-        symbol [ options %options.4 72 16 23 ];
+        symbol [ options %options.4 74 16 23 ];
         %tmp.15 = newd Lang.Dictionary 3;
-        symbol [ Lang %tmp.15 76 17 21 ];
-        symbol [ Dictionary %tmp.15 76 22 32 ];
+        symbol [ Lang %tmp.15 78 17 21 ];
+        symbol [ Dictionary %tmp.15 78 22 32 ];
         %tmp.17 = const :method;
-        symbol [ method %tmp.17 73 17 23 const ];
-        symbol [ Comm %tmp.18 73 27 31 ];
+        symbol [ method %tmp.17 75 17 23 const ];
+        symbol [ Comm %tmp.18 75 27 31 ];
         %tmp.18 = getm $.Toybox.Communications;
-        symbol [ HTTP_REQUEST_METHOD_POST %tmp.19 73 32 56 ];
+        symbol [ HTTP_REQUEST_METHOD_POST %tmp.19 75 32 56 ];
         %tmp.19 = getv %tmp.18 :HTTP_REQUEST_METHOD_POST;
         %tmp.20 = dup %tmp.15;
         %tmp.21 = aputv %tmp.20 %tmp.17 %tmp.19;
         %tmp.23 = const :headers;
-        symbol [ headers %tmp.23 74 17 24 const ];
+        symbol [ headers %tmp.23 76 17 24 const ];
         %tmp.24 = lgetv %headers.3;
-        symbol [ headers %tmp.24 74 28 35 ];
+        symbol [ headers %tmp.24 76 28 35 ];
         %tmp.25 = dup %tmp.21;
         %tmp.26 = aputv %tmp.25 %tmp.23 %tmp.24;
         %tmp.28 = const :responseType;
-        symbol [ responseType %tmp.28 75 17 29 const ];
-        symbol [ Comm %tmp.29 75 33 37 ];
+        symbol [ responseType %tmp.28 77 17 29 const ];
+        symbol [ Comm %tmp.29 77 33 37 ];
         %tmp.29 = getm $.Toybox.Communications;
-        symbol [ HTTP_RESPONSE_CONTENT_TYPE_JSON %tmp.30 75 38 69 ];
+        symbol [ HTTP_RESPONSE_CONTENT_TYPE_JSON %tmp.30 77 38 69 ];
         %tmp.30 = getv %tmp.29 :HTTP_RESPONSE_CONTENT_TYPE_JSON;
         %tmp.31 = dup %tmp.26;
         %tmp.32 = aputv %tmp.31 %tmp.28 %tmp.30;
         lputv %options.4 %tmp.32;
-        symbol [ options %options.4 72 16 23 ];
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 78 12 ]
-        symbol [ Comm %tmp.33 78 12 16 ];
+        symbol [ options %options.4 74 16 23 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 80 12 ]
+        symbol [ Comm %tmp.33 80 12 16 ];
         %tmp.33 = getm $.Toybox.Communications;
-        symbol [ makeWebRequest %tmp.34 78 17 31 ];
+        symbol [ makeWebRequest %tmp.34 80 17 31 ];
         %tmp.34 = getv function %tmp.33 :makeWebRequest;
         %tmp.35 = lgetv %serverUrl;
-        symbol [ serverUrl %tmp.35 78 32 41 ];
+        symbol [ serverUrl %tmp.35 80 32 41 ];
         %tmp.36 = lgetv %body.2;
-        symbol [ body %tmp.36 78 43 47 ];
+        symbol [ body %tmp.36 80 43 47 ];
         %tmp.37 = lgetv %options.4;
-        symbol [ options %tmp.37 78 49 56 ];
+        symbol [ options %tmp.37 80 49 56 ];
         %tmp.38 = self;
-        symbol [ method %tmp.39 78 58 64 ];
+        symbol [ method %tmp.39 80 58 64 ];
         %tmp.39 = getv function %tmp.38 :method;
         %tmp.41 = const :onUploadResponse;
-        symbol [ onUploadResponse %tmp.41 78 66 82 const ];
+        symbol [ onUploadResponse %tmp.41 80 66 82 const ];
         %tmp.42 = invoke %tmp.38 %tmp.39(%tmp.41);
         invoke %tmp.33 %tmp.34(%tmp.35, %tmp.36, %tmp.37, %tmp.42);
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 79 12 ]
-        symbol [ Sys %tmp.43 79 12 15 ];
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 81 12 ]
+        symbol [ Sys %tmp.43 81 12 15 ];
         %tmp.43 = getm $.Toybox.System;
-        symbol [ println %tmp.44 79 16 23 ];
+        symbol [ println %tmp.44 81 16 23 ];
         %tmp.44 = getv function %tmp.43 :println;
-        %tmp.45 = "? Uploading data to server...";
+        %tmp.45 = "✓ Uploading data to server...";
         invoke %tmp.43 %tmp.44(%tmp.45);
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 80 12 ]
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 82 12 ]
         %tmp.46 = true;
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
         ret %tmp.46;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_12_81_8_stop:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_endTry:
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_catch:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_12_83_8_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_endTry:
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_catch:
         %tmp.47 = exception;
         push %tmp.47;
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 81 10 ]
-        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_catch" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_81_10_84_8_end" ]
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 83 10 ]
+        [ "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_catch" "C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_83_10_86_8_end" ]
         %e.5 = local;
-        symbol [ e %e.5 81 17 18 ];
+        symbol [ e %e.5 83 17 18 ];
         %tmp.48 = dup %tmp.47;
         lputv %e.5 %tmp.48;
-        symbol [ e %e.5 81 17 18 ];
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_81_20_84_8_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 82 12 ]
-        symbol [ Sys %tmp.49 82 12 15 ];
+        symbol [ e %e.5 83 17 18 ];
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_83_20_86_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 84 12 ]
+        symbol [ Sys %tmp.49 84 12 15 ];
         %tmp.49 = getm $.Toybox.System;
-        symbol [ println %tmp.50 82 16 23 ];
+        symbol [ println %tmp.50 84 16 23 ];
         %tmp.50 = getv function %tmp.49 :println;
-        %tmp.51 = "? Upload failed: ";
+        %tmp.51 = "✗ Upload failed: ";
         %tmp.52 = lgetv %e.5;
-        symbol [ e %tmp.52 82 46 47 ];
-        symbol [ getErrorMessage %tmp.53 82 48 63 ];
+        symbol [ e %tmp.52 84 46 47 ];
+        symbol [ getErrorMessage %tmp.53 84 48 63 ];
         %tmp.53 = getv function %tmp.52 :getErrorMessage;
         %tmp.54 = invoke %tmp.52 %tmp.53();
         %tmp.55 = add %tmp.51 %tmp.54;
         invoke %tmp.49 %tmp.50(%tmp.55);
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 83 12 ]
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 85 12 ]
         pop;
         %tmp.56 = false;
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
         ret %tmp.56;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_81_20_84_8_stop:
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_83_20_86_8_stop:
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
         pop;
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_81_10_84_8_end:
-        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_81_10_84_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_81_10_84_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
-        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally;
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_83_10_86_8_end:
+        try @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_catch @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_83_10_86_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_83_10_86_8_end @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
+        jsr @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally;
         throw %tmp.47;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_finally:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_finally:
         jsrret;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_61_8_84_8_end:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_60_70_85_4_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_63_8_86_8_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_62_70_87_4_stop:
     }
-    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 87; @symbol_functiondef = [onUploadResponse,87,13,29]; @symbol_param<0> = [responseCode,87,30,42]; @symbol_param<0>_type<0> = [Lang,87,46,50]; @symbol_param<0>_type<1> = [Number,87,51,57]; @symbol_param<1> = [responseData,87,59,71]; @symbol_param<1>_type<0> = [Lang,87,83,87]; @symbol_param<1>_type<1> = [Dictionary,87,88,98]; @symbol_param<1>_type<2> = [Lang,87,102,106]; @symbol_param<1>_type<3> = [String,87,107,113]; ]
+    [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 89; @symbol_functiondef = [onUploadResponse,89,13,29]; @symbol_param<0> = [responseCode,89,30,42]; @symbol_param<0>_type<0> = [Lang,89,46,50]; @symbol_param<0>_type<1> = [Number,89,51,57]; @symbol_param<1> = [responseData,89,59,71]; @symbol_param<1>_type<0> = [Lang,89,83,87]; @symbol_param<1>_type<1> = [Dictionary,89,88,98]; @symbol_param<1>_type<2> = [Lang,89,102,106]; @symbol_param<1>_type<3> = [String,89,107,113]; ]
     function onUploadResponse(responseCode as Lang.Number, responseData as Null or Lang.Dictionary or Lang.String) as Void {
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_87_123_93_4_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 88 8 ]
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_8_92_8_if_stmt:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_89_123_95_4_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 90 8 ]
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_8_94_8_if_stmt:
         %tmp.1 = lgetv %responseCode;
-        symbol [ responseCode %tmp.1 88 12 24 ];
+        symbol [ responseCode %tmp.1 90 12 24 ];
         %tmp.2 = 200;
         %tmp.3 = eq %tmp.1 %tmp.2;
-        bf %tmp.3 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_8_92_8_if_else_false;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_8_92_8_if_true:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_33_90_8_start:
-[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 89 12 ]
-        symbol [ Sys %tmp.4 89 12 15 ];
-        %tmp.4 = getm $.Toybox.System;
-        symbol [ println %tmp.5 89 16 23 ];
-        %tmp.5 = getv function %tmp.4 :println;
-        %tmp.6 = "? Server accepted data (200 OK)";
-        invoke %tmp.4 %tmp.5(%tmp.6);
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_33_90_8_stop:
-        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_8_92_8_if_end;
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_8_92_8_if_else_false:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_15_92_8_start:
+        bf %tmp.3 @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_8_94_8_if_else_false;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_8_94_8_if_true:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_33_92_8_start:
 [ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 91 12 ]
-        symbol [ Sys %tmp.7 91 12 15 ];
+        symbol [ Sys %tmp.4 91 12 15 ];
+        %tmp.4 = getm $.Toybox.System;
+        symbol [ println %tmp.5 91 16 23 ];
+        %tmp.5 = getv function %tmp.4 :println;
+        %tmp.6 = "✓ Server accepted data (200 OK)";
+        invoke %tmp.4 %tmp.5(%tmp.6);
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_33_92_8_stop:
+        goto @C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_8_94_8_if_end;
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_8_94_8_if_else_false:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_92_15_94_8_start:
+[ "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc" 93 12 ]
+        symbol [ Sys %tmp.7 93 12 15 ];
         %tmp.7 = getm $.Toybox.System;
-        symbol [ println %tmp.8 91 16 23 ];
+        symbol [ println %tmp.8 93 16 23 ];
         %tmp.8 = getv function %tmp.7 :println;
-        %tmp.9 = "? Server error: ";
+        %tmp.9 = "✗ Server error: ";
         %tmp.10 = lgetv %responseCode;
-        symbol [ responseCode %tmp.10 91 45 57 ];
+        symbol [ responseCode %tmp.10 93 45 57 ];
         %tmp.11 = add %tmp.9 %tmp.10;
         invoke %tmp.7 %tmp.8(%tmp.11);
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_15_92_8_stop:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_88_8_92_8_if_end:
-C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_87_123_93_4_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_92_15_94_8_stop:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_90_8_94_8_if_end:
+C__Users_shaun_OneDrive___Atlantic_TU_3RD_YEAR_Research_Emerging_technologie_AIWearable_source_DataExporter_mc_89_123_95_4_stop:
     }
 }
 [ @file = "C:\Users\shaun\OneDrive - Atlantic TU\3RD YEAR\Research Emerging technologie\AIWearable\source\DataExporter.mc"; @line = 1; ]
