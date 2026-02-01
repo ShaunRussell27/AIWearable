@@ -20,6 +20,19 @@ if not os.path.exists(DATA_DIR):
 all_readings = []
 
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({
+        "status": "Server running",
+        "message": "Use /api/status, /api/data, or POST /api/health-data",
+        "endpoints": {
+            "status": "/api/status",
+            "data": "/api/data",
+            "health_data": "/api/health-data"
+        }
+    }), 200
+
+
 @app.route('/api/health-data', methods=['POST'])
 def receive_health_data():
     """
