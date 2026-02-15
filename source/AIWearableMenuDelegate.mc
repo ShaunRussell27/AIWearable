@@ -4,6 +4,8 @@ import Toybox.WatchUi;
 
 class AIWearableMenuDelegate extends WatchUi.MenuInputDelegate {
 
+    const SERVER_UPLOAD_URL = "https://aiwearable-production.up.railway.app/api/health-data";
+
     function initialize() {
         MenuInputDelegate.initialize();
     }
@@ -19,7 +21,7 @@ class AIWearableMenuDelegate extends WatchUi.MenuInputDelegate {
             }
         } else if (item == :upload_data) {
             var exporter = new DataExporter();
-            exporter.uploadToServer("aiwearable-production.up.railway.app");
+            exporter.uploadToServer(SERVER_UPLOAD_URL);
         } else if (item == :item_2) {
             System.println("item 2");
         }

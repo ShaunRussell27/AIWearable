@@ -7,6 +7,8 @@ using Toybox.Communications as Comm;
 
 class DataExporter {
 
+    const PENDING_UPLOAD_KEY = "pending_upload_queue";
+
     function exportTodayAsJSON() as Lang.String {
         // Get current date and time
         var now = Time.now();
@@ -61,15 +63,24 @@ class DataExporter {
 
     function uploadToServer(serverUrl as Lang.String) as Lang.Boolean {
         try {
-            var json = exportTodayAsJSON();
-            
-            var body = ({
-                :data => json
-            } as Lang.Dictionary<Lang.Object, Lang.Object>);
-            
+            var queueObj = Storage.getValue(PENDING_UPLOAD_KEY);
+            var pendingReadings = queueObj as Lang.Array<Lang.Dictionary>;
+            if (queueObj == null || pendingReadings == null || pendingReadings.size() == 0) {
+                Sys.println("ℹ No pending readings to upload");
+                return true;
+            }
+
+            var now = Time.now();
+            var info = Time.Gregorian.info(now, Time.FORMAT_SHORT);
+
             var headers = {
                 "Content-Type" => "application/json"
             } as Lang.Dictionary<Lang.String, Lang.String>;
+
+            var payload = {
+                "date" => Lang.format("$1$-$2$-$3$", [info.year, info.month, info.day]),
+                "readings" => pendingReadings
+            } as Lang.Dictionary<Lang.Object, Lang.Object>;
             
             var options = {
                 :method => Comm.HTTP_REQUEST_METHOD_POST,
@@ -77,8 +88,8 @@ class DataExporter {
                 :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
             } as Lang.Dictionary;
             
-            Comm.makeWebRequest(serverUrl, body, options, method(:onUploadResponse));
-            Sys.println("✓ Uploading data to server...");
+            Comm.makeWebRequest(serverUrl, payload, options, method(:onUploadResponse));
+            Sys.println("✓ Uploading " + pendingReadings.size() + " queued readings...");
             return true;
         } catch (e) {
             Sys.println("✗ Upload failed: " + e.getErrorMessage());
@@ -87,8 +98,10 @@ class DataExporter {
     }
 
     function onUploadResponse(responseCode as Lang.Number, responseData as Null or Lang.Dictionary or Lang.String) as Void {
-        if (responseCode == 200) {
-            Sys.println("✓ Server accepted data (200 OK)");
+        if (responseCode >= 200 && responseCode < 300) {
+            Sys.println("✓ Server accepted data (" + responseCode + ")");
+            Storage.deleteValue(PENDING_UPLOAD_KEY);
+            Sys.println("✓ Cleared pending upload queue");
         } else {
             Sys.println("✗ Server error: " + responseCode);
         }

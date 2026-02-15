@@ -51,15 +51,18 @@ class AIWearableView extends Ui.View {
     
     var lastRecordTime = 0;
     var readingInterval = 300; // Record every 5 minutes for testing
-    
-    // Scrolling list metrics
+    const RUN_TESTS_ON_START = false;
+    const METRIC_COUNT = 4;
+    const MAX_PENDING_UPLOADS = 3000;
+    const MAX_TRACKED_DAYS = 7;
+    const PENDING_UPLOAD_KEY = "pending_upload_queue";
+    const TRACKED_DAY_KEYS = "tracked_day_keys";
+    const SERVER_UPLOAD_URL = "https://aiwearable-production.up.railway.app/api/health-data";
+    const LAST_UPLOAD_ATTEMPT_KEY = "last_upload_attempt_epoch";
+    const AUTO_UPLOAD_COOLDOWN_SEC = 1800;
+
+    // Scrolling metric index
     var currentMetricIndex = 0;
-    var metrics = [
-        { "label" => "HR", "value" => 0, "unit" => "bpm" },
-        { "label" => "Resting HR", "value" => 0, "unit" => "bpm" },
-        { "label" => "VO2 Max", "value" => 0.0, "unit" => "mL/kg/min" },
-        { "label" => "Training Status", "value" => "N/A", "unit" => "" }
-    ] as Lang.Array<Lang.Dictionary>;
 
     function initialize() {
         View.initialize();
@@ -70,11 +73,13 @@ class AIWearableView extends Ui.View {
         var dateKey = Lang.format("hr_$1$_$2$_$3$", [info.year, info.month, info.day]);
         var readings = Storage.getValue(dateKey);
         Sys.println("Stored samples: " + (readings != null ? readings.size() : 0));
+        attemptAutoUpload();
                 // Request frequent screen updates
         Ui.requestUpdate();
-                // Uncomment to run unit tests on app launch
-        var tests = new AIWearableTests();
-        tests.runAllTests();
+        if (RUN_TESTS_ON_START) {
+            var tests = new AIWearableTests();
+            tests.runAllTests();
+        }
     }
 
     function onUpdate(dc as Dc) as Void {
@@ -95,6 +100,12 @@ class AIWearableView extends Ui.View {
         // Get user stats (resting HR, VO2 Max)
         var profile = UserProfile.getProfile();
         if (profile != null) {
+            if (profile has :restingHeartRate && profile.restingHeartRate != null) {
+                restingHr = profile.restingHeartRate;
+            } else {
+                restingHr = 60;
+            }
+
             // Try vo2MaxRunning first, fall back to vo2Max if not available
             if (profile has :vo2MaxRunning && profile.vo2MaxRunning != null) {
                 vo2max = profile.vo2MaxRunning;
@@ -103,6 +114,9 @@ class AIWearableView extends Ui.View {
             } else {
                 vo2max = 45.0;
             }
+        } else {
+            restingHr = 60;
+            vo2max = 45.0;
         }
 
         // Estimate training status based on heart rate
@@ -112,12 +126,6 @@ class AIWearableView extends Ui.View {
         } else {
             trainingStatus = "Rest";
         }
-
-        // Update metrics array
-        metrics[0]["value"] = hr;
-        metrics[1]["value"] = restingHr;
-        metrics[2]["value"] = vo2max;
-        metrics[3]["value"] = trainingStatus;
 
         // Record reading every interval
         var now = Time.now().value();
@@ -134,18 +142,25 @@ class AIWearableView extends Ui.View {
     }
 
     function drawMetricDisplay(dc as Dc) as Void {
-        var metric = metrics[currentMetricIndex];
-        var label = metric["label"] as Lang.String;
-        var value = metric["value"];
-        var unit = metric["unit"] as Lang.String;
-        
+        var label = "";
         var valueStr = "";
-        if (value instanceof Lang.Float) {
-            valueStr = Lang.format("$1$.1f", [value]);
-        } else if (value instanceof Lang.String) {
-            valueStr = value as Lang.String;
+        var unit = "";
+
+        if (currentMetricIndex == 0) {
+            label = "HR";
+            valueStr = hr.toString();
+            unit = "bpm";
+        } else if (currentMetricIndex == 1) {
+            label = "Resting HR";
+            valueStr = restingHr.toString();
+            unit = "bpm";
+        } else if (currentMetricIndex == 2) {
+            label = "VO2 Max";
+            valueStr = Lang.format("$1$.1f", [vo2max]);
+            unit = "mL/kg/min";
         } else {
-            valueStr = value.toString();
+            label = "Training Status";
+            valueStr = trainingStatus;
         }
 
         dc.setColor(G.COLOR_WHITE, G.COLOR_TRANSPARENT);
@@ -165,9 +180,13 @@ class AIWearableView extends Ui.View {
         }
         
         // Draw pagination indicator
-        var pageIndicator = (currentMetricIndex + 1) + "/" + metrics.size();
+        var pageIndicator = (currentMetricIndex + 1) + "/" + METRIC_COUNT;
         dc.drawText(dc.getWidth()/2, dc.getHeight() - 20, G.FONT_SMALL,
             pageIndicator, G.TEXT_JUSTIFY_CENTER);
+    }
+
+    function getMetricCount() as Lang.Number {
+        return METRIC_COUNT;
     }
 
     function recordReading(heartRate as Lang.Number, restingHeartRate as Lang.Number, vo2Max as Lang.Float, trainingStatus as Lang.String) as Void {
@@ -190,18 +209,95 @@ class AIWearableView extends Ui.View {
         // Get or create today's readings
         var dateKey = Lang.format("hr_$1$_$2$_$3$", 
             [info.year, info.month, info.day]);
+
+        var dateStr = Lang.format("$1$-$2$-$3$", [info.year, info.month, info.day]);
         
-        var dailyReadings = Storage.getValue(dateKey) as Lang.Array<Lang.Dictionary>;
-        if (dailyReadings == null) {
+        var dailyReadingsObj = Storage.getValue(dateKey);
+        var dailyReadings = dailyReadingsObj as Lang.Array<Lang.Dictionary>;
+        if (dailyReadingsObj == null || dailyReadings == null) {
             dailyReadings = [] as Lang.Array<Lang.Dictionary>;
         }
         
         dailyReadings.add(reading);
         Storage.setValue(dateKey, dailyReadings);
+
+        trackDayKey(dateKey);
+        queuePendingUpload(reading, dateStr);
         
         // Print JSON after every save
         var exporter = new DataExporter();
         Sys.println(exporter.exportTodayAsJSON());
+    }
+
+    function trackDayKey(dateKey as Lang.String) as Void {
+        var trackedObj = Storage.getValue(TRACKED_DAY_KEYS);
+        var tracked = trackedObj as Lang.Array<Lang.String>;
+        if (trackedObj == null || tracked == null) {
+            tracked = [] as Lang.Array<Lang.String>;
+        }
+
+        var exists = false;
+        for (var i = 0; i < tracked.size(); i++) {
+            if (tracked[i] == dateKey) {
+                exists = true;
+                break;
+            }
+        }
+
+        if (!exists) {
+            tracked.add(dateKey);
+        }
+
+        while (tracked.size() > MAX_TRACKED_DAYS) {
+            var oldestKey = tracked[0];
+            tracked.remove(oldestKey);
+            Storage.deleteValue(oldestKey);
+        }
+
+        Storage.setValue(TRACKED_DAY_KEYS, tracked);
+    }
+
+    function queuePendingUpload(reading as Lang.Dictionary, dateStr as Lang.String) as Void {
+        var queueObj = Storage.getValue(PENDING_UPLOAD_KEY);
+        var queue = queueObj as Lang.Array<Lang.Dictionary>;
+        if (queueObj == null || queue == null) {
+            queue = [] as Lang.Array<Lang.Dictionary>;
+        }
+
+        var queuedReading = {
+            "date" => dateStr,
+            "timestamp" => reading["timestamp"],
+            "heartRate" => reading["heartRate"],
+            "restingHeartRate" => reading["restingHeartRate"],
+            "vo2Max" => reading["vo2Max"],
+            "trainingStatus" => reading["trainingStatus"]
+        };
+
+        queue.add(queuedReading);
+
+        while (queue.size() > MAX_PENDING_UPLOADS) {
+            queue.remove(queue[0]);
+        }
+
+        Storage.setValue(PENDING_UPLOAD_KEY, queue);
+    }
+
+    function attemptAutoUpload() as Void {
+        var nowEpoch = Time.now().value();
+        var lastAttemptObj = Storage.getValue(LAST_UPLOAD_ATTEMPT_KEY);
+        var lastAttempt = 0;
+        if (lastAttemptObj != null) {
+            lastAttempt = lastAttemptObj;
+        }
+
+        if (nowEpoch - lastAttempt < AUTO_UPLOAD_COOLDOWN_SEC) {
+            return;
+        }
+
+        Storage.setValue(LAST_UPLOAD_ATTEMPT_KEY, nowEpoch);
+
+        var exporter = new DataExporter();
+        exporter.uploadToServer(SERVER_UPLOAD_URL);
     }
 
     function onHide() as Void {
@@ -222,18 +318,24 @@ class AIWearableInputDelegate extends Ui.BehaviorDelegate {
         
         // Down/Select button scrolls to next metric
         if (key == Ui.KEY_DOWN || key == Ui.KEY_ENTER) {
-            view.currentMetricIndex = (view.currentMetricIndex + 1) % view.metrics.size();
+            view.currentMetricIndex = (view.currentMetricIndex + 1) % view.getMetricCount();
             Ui.requestUpdate();
             return true;
         }
         
         // Up button scrolls to previous metric
         if (key == Ui.KEY_UP) {
-            view.currentMetricIndex = (view.currentMetricIndex - 1 + view.metrics.size()) % view.metrics.size();
+            var metricCount = view.getMetricCount();
+            view.currentMetricIndex = (view.currentMetricIndex - 1 + metricCount) % metricCount;
             Ui.requestUpdate();
             return true;
         }
         
         return false;
+    }
+
+    function onMenu() as Lang.Boolean {
+        Ui.pushView(new Rez.Menus.MainMenu(), new AIWearableMenuDelegate(), Ui.SLIDE_UP);
+        return true;
     }
 }
